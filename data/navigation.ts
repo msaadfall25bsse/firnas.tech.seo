@@ -20,6 +20,7 @@ export const siteConfig = {
   email: "contact@firnas.tech",
   phone: "+92 300 0000000",
   whatsapp: "https://wa.me/923000000000",
+  location: "Abbottabad, Khyber Pakhtunkhwa, Pakistan",
   socials: {
     github: "https://github.com/msaadfall25bsse/firnas.tech.seo",
     linkedin: "https://linkedin.com",

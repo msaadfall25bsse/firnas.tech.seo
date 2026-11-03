@@ -127,7 +127,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-[#F07825] mt-0.5 shrink-0" />
-                <span>Global Remote Digital Agency</span>
+                <span>Abbottabad, Khyber Pakhtunkhwa, Pakistan</span>
               </li>
             </ul>
           </div>

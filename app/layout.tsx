@@ -80,6 +80,12 @@ export default function RootLayout({
     slogan: siteConfig.tagline,
     description: siteConfig.description,
     email: siteConfig.email,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Abbottabad",
+      addressRegion: "Khyber Pakhtunkhwa",
+      addressCountry: "PK",
+    },
     sameAs: [
       siteConfig.socials.github,
       siteConfig.socials.linkedin,

@@ -105,8 +105,8 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-semibold text-neutral-800">Location</div>
-                    <span className="text-neutral-600">Global Remote Digital Agency</span>
+                    <div className="font-semibold text-neutral-800">Office Location</div>
+                    <span className="text-neutral-600">Abbottabad, Khyber Pakhtunkhwa, Pakistan</span>
                   </div>
                 </div>
               </div>
