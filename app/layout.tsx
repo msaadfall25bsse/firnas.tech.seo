@@ -60,6 +60,9 @@ export const metadata: Metadata = {
     shortcut: "/logo.svg",
     apple: "/logo.svg",
   },
+  verification: {
+    google: "18d37e43bd2808bb",
+  },
 };
 
 export default function RootLayout({
@@ -93,6 +96,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="18d37e43bd2808bb" />
+        <meta name="google-site-verification" content="google18d37e43bd2808bb" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
