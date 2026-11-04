@@ -45,3 +45,55 @@ body {
   border-color: #E5E7EB;
 }
 
+/* Unlimited Orbit Keyframe Animations */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinReverseMedium {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes reverseSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes counterSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 32s linear infinite;
+}
+
+.animate-spin-reverse-medium {
+  animation: spinReverseMedium 22s linear infinite;
+}
+
+.animate-reverse-spin {
+  animation: reverseSpin 32s linear infinite;
+}
+
+.animate-counter-spin {
+  animation: counterSpin 22s linear infinite;
+}
