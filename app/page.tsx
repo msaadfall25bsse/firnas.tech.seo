@@ -212,15 +212,15 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="lg:col-span-6 relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 bg-white aspect-16/10 flex items-center justify-center p-3">
+            <div className="lg:col-span-6 relative flex items-center justify-center">
+              <div className="relative w-full h-[360px] sm:h-[420px] md:h-[460px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-white p-4 flex items-center justify-center">
                 <Image
                   src="/purpose-showcase.jpg"
                   alt="Firnas.tech - IT Company and Software House in Abbottabad delivering web development and digital marketing"
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 550px"
-                  className="object-contain"
+                  className="object-contain p-2"
                 />
               </div>
             </div>
