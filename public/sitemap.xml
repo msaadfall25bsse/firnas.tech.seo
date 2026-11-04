@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Core Pages -->
+  <!-- Core Site Pages -->
   <url>
     <loc>https://firnas-tech-seo.vercel.app/</loc>
     <lastmod>2026-03-20</lastmod>
@@ -32,9 +32,33 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Dedicated Service Landing Hubs (SEO & Local Abbottabad Intent) -->
+  <!-- Web Development Services (8 Pages) -->
   <url>
     <loc>https://firnas-tech-seo.vercel.app/services/web-development</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/website-development</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/custom-web-application-development</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/nextjs-development</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/reactjs-development</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -46,7 +70,39 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/full-stack-development</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/website-maintenance</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- SEO Services (9 Pages) -->
+  <url>
     <loc>https://firnas-tech-seo.vercel.app/services/seo-services</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/technical-seo</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/on-page-seo</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/off-page-seo</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -58,13 +114,131 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://firnas-tech-seo.vercel.app/services/brand-identity-design</loc>
+    <loc>https://firnas-tech-seo.vercel.app/services/keyword-research</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/website-seo-audit</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/link-building</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/content-optimization</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Learning Tutorials -->
+  <!-- Digital Marketing Services (8 Pages) -->
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/digital-marketing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/social-media-marketing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/facebook-marketing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/instagram-marketing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/google-ads</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/ppc-advertising</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/content-marketing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/email-marketing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Graphic Designing Services (8 Pages) -->
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/graphic-designing</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/logo-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/brand-identity-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/social-media-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/business-card-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/banner-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/brochure-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firnas-tech-seo.vercel.app/services/ui-ux-design</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Learning Tutorials (9 Pages) -->
   <url>
     <loc>https://firnas-tech-seo.vercel.app/learning/introduction-to-modern-web-development</loc>
     <lastmod>2026-03-20</lastmod>

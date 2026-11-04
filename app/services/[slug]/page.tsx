@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { CheckCircle2, ArrowRight, ShieldCheck, MapPin, Sparkles, ChevronRight, HelpCircle } from "lucide-react";
+import { CheckCircle2, ArrowRight, MapPin, Sparkles, ChevronRight, HelpCircle } from "lucide-react";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import Button from "@/components/shared/Button";
 import CTASection from "@/components/shared/CTASection";
 import FAQAccordion from "@/components/shared/FAQAccordion";
-import { dedicatedServices } from "@/data/dedicatedServices";
+import { allSubServices, getServiceBySlug } from "@/data/servicesCatalog/index";
 import { siteConfig } from "@/data/navigation";
 
 interface ServicePageProps {
@@ -17,14 +17,14 @@ interface ServicePageProps {
 }
 
 export async function generateStaticParams() {
-  return dedicatedServices.map((service) => ({
+  return allSubServices.map((service) => ({
     slug: service.slug,
   }));
 }
 
 export async function generateMetadata({ params }: ServicePageProps): Promise<Metadata> {
   const { slug } = await params;
-  const service = dedicatedServices.find((s) => s.slug === slug);
+  const service = getServiceBySlug(slug);
 
   if (!service) {
     return {
@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     };
   }
 
-  const title = `${service.title} in Abbottabad, Pakistan | Firnas.tech`;
-  const description = `${service.shortDesc} Expert ${service.primaryKeyword} delivering high-performance digital solutions in Abbottabad, KPK, and worldwide.`;
+  const title = `${service.title} | Firnas.tech — Abbottabad, Pakistan`;
+  const description = `${service.shortDesc} Professional ${service.primaryKeyword} delivered by Firnas.tech in Abbottabad, Pakistan and worldwide.`;
 
   return {
     title,
@@ -66,14 +66,16 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 
 export default async function DedicatedServicePage({ params }: ServicePageProps) {
   const { slug } = await params;
-  const service = dedicatedServices.find((s) => s.slug === slug);
+  const service = getServiceBySlug(slug);
 
   if (!service) {
     notFound();
   }
 
-  // Related dedicated services
-  const relatedServices = dedicatedServices.filter((s) => s.slug !== service.slug).slice(0, 3);
+  // Related dedicated services from same category or complementary disciplines
+  const relatedServices = allSubServices
+    .filter((s) => s.slug !== service.slug && (s.categorySlug === service.categorySlug || Math.random() > 0.5))
+    .slice(0, 3);
 
   // LocalBusiness & Service JSON-LD Structured Data
   const serviceJsonLd = {
@@ -124,6 +126,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
         <Breadcrumbs
           items={[
             { label: "Services", href: "/services" },
+            { label: service.categoryTitle, href: `/services#${service.categorySlug}` },
             { label: service.title },
           ]}
         />
@@ -141,23 +144,23 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
                 {service.heroHeadline}
               </h1>
 
-              <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl">
+              <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl font-normal">
                 {service.heroDescription}
               </p>
 
-              {/* Local SEO Highlight Box */}
-              <div className="p-4 rounded-xl bg-orange-50/70 border border-orange-200/80 text-sm text-neutral-800 space-y-1">
+              {/* Local SEO & Quality Highlight Box */}
+              <div className="p-4 rounded-2xl bg-orange-50/70 border border-orange-200/80 text-sm text-neutral-800 space-y-1">
                 <p className="font-semibold text-neutral-900">
                   Targeted Local & Global Impact
                 </p>
                 <p className="text-xs text-neutral-600 leading-relaxed">
-                  Specialized for growing enterprises in <strong>Abbottabad, Hazara, Islamabad, and across Pakistan</strong> seeking international standards in engineering and design.
+                  Engineered for businesses in <strong>Abbottabad, Hazara Division, Islamabad, and across Pakistan</strong> seeking international standards in engineering and design.
                 </p>
               </div>
 
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button variant="primary" size="lg" href="/contact">
-                  <span>Inquire for {service.title}</span>
+                  <span>Get a Free Quote for {service.title}</span>
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
                 <Button variant="outline" size="lg" href="/services">
@@ -167,7 +170,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
             </div>
 
             <div className="lg:col-span-5 relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900 aspect-4/3">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900 aspect-4/3">
                 <Image
                   src={service.image}
                   alt={`${service.title} - Firnas.tech Abbottabad Pakistan`}
@@ -227,7 +230,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               Our 5-Stage Delivery Process
             </h2>
             <p className="text-neutral-600 text-base mt-2">
-              From strategic concept to live delivery in Abbottabad and beyond.
+              From strategic discovery to live delivery in Abbottabad and beyond.
             </p>
           </div>
 
@@ -254,17 +257,19 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
         </section>
 
         {/* Service FAQs */}
-        <section className="py-16 border-t border-neutral-200/80">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
-              Common Questions
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-              Frequently Asked Questions About {service.title}
-            </h2>
-          </div>
-          <FAQAccordion items={service.faqs} />
-        </section>
+        {service.faqs && service.faqs.length > 0 && (
+          <section className="py-16 border-t border-neutral-200/80">
+            <div className="text-center max-w-3xl mx-auto mb-12">
+              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
+                Common Questions
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
+                Frequently Asked Questions About {service.title}
+              </h2>
+            </div>
+            <FAQAccordion items={service.faqs} />
+          </section>
+        )}
 
         {/* Related Services */}
         <section className="py-16 border-t border-neutral-200/80">
@@ -321,14 +326,13 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
 
         {/* CTA Section */}
         <CTASection
-          badge="Start your project in Abbottabad"
+          badge="Get in Touch"
           title={`Ready to Elevate Your Business with ${service.title}?`}
           description="Contact Firnas.tech today for a tailored proposal, technical roadmap, and transparent milestone estimate."
-          buttonText="Request Consultation"
+          buttonText="Request a Free Quote"
           buttonHref="/contact"
         />
       </div>
     </div>
   );
 }
-
