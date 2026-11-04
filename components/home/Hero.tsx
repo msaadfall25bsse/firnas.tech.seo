@@ -21,7 +21,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-neutral-900 tracking-tight leading-[1.12] mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-[1.12] mb-6">
               Transforming Ideas Into{" "}
               <span className="text-[#F07825]">Powerful Digital</span> Experiences
             </h1>

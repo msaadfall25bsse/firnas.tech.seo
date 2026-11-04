@@ -29,7 +29,7 @@ export default function LearningPage() {
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-neutral-900 tracking-tight leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight mb-6">
             Bootcamp-Style Curriculums for Modern Tech Disciplines
           </h1>
 
@@ -39,19 +39,19 @@ export default function LearningPage() {
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-left max-w-3xl mx-auto pt-2">
             <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-2xl font-black text-[#F07825]">09</span>
+              <span className="text-2xl font-bold text-[#F07825]">09</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">Complete Programs</p>
             </div>
             <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-2xl font-black text-[#F07825]">100%</span>
+              <span className="text-2xl font-bold text-[#F07825]">100%</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">Free & Open Source</p>
             </div>
             <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-2xl font-black text-[#F07825]">Labs</span>
+              <span className="text-2xl font-bold text-[#F07825]">Labs</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">Hands-On Projects</p>
             </div>
             <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-2xl font-black text-[#F07825]">Clean</span>
+              <span className="text-2xl font-bold text-[#F07825]">Clean</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">No Generic Fluff</p>
             </div>
           </div>

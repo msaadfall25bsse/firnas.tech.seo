@@ -62,7 +62,7 @@ export default function ServicesPage() {
           <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
             Our Offerings
           </span>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
             End-to-End Digital Solutions Tailored for Growth
           </h1>
           <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl mx-auto">
@@ -142,7 +142,7 @@ export default function ServicesPage() {
                 <Code2 className="w-4 h-4" />
                 <span>Service Category 01</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight">
                 Software Development
               </h2>
               <p className="text-lg font-medium text-neutral-700">
@@ -229,7 +229,7 @@ export default function ServicesPage() {
                 <TrendingUp className="w-4 h-4" />
                 <span>Service Category 02</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight">
                 Digital Marketing & SEO
               </h2>
               <p className="text-lg font-medium text-neutral-700">
@@ -292,7 +292,7 @@ export default function ServicesPage() {
                 <Palette className="w-4 h-4" />
                 <span>Service Category 03</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight">
                 Graphic Designing
               </h2>
               <p className="text-lg font-medium text-neutral-700">

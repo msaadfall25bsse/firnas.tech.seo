@@ -27,7 +27,7 @@ export default function CTASection({
             {badge}
           </span>
         )}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-6">
           {title}
         </h2>
         <p className="text-base sm:text-lg text-neutral-300 leading-relaxed mb-8 max-w-2xl">

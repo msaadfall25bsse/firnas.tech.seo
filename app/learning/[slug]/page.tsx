@@ -133,7 +133,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
                 </span>
               </div>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-neutral-900 tracking-tight leading-tight">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-neutral-900 tracking-tight leading-tight">
                 {course.title}
               </h1>
 
@@ -182,7 +182,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
                 Course Overview
               </span>
-              <h2 className="text-3xl font-extrabold text-neutral-900 tracking-tight">
+              <h2 className="text-3xl font-bold text-neutral-900 tracking-tight">
                 About This Educational Journey
               </h2>
               <p className="text-neutral-700 text-base leading-relaxed">
@@ -257,7 +257,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
               Learning Outcomes
             </span>
-            <h2 className="text-3xl font-extrabold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl font-bold text-neutral-900 tracking-tight mt-3">
               What You Will Master in This Curriculum
             </h2>
           </div>
@@ -287,7 +287,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
               Full Syllabus
             </span>
-            <h2 className="text-3xl font-extrabold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl font-bold text-neutral-900 tracking-tight mt-3">
               Comprehensive Course Curriculum
             </h2>
             <p className="text-neutral-600 text-sm mt-2">
@@ -307,7 +307,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
               <span className="px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#FF8C42] bg-[#F07825]/20 rounded-full">
                 Hands-On Project
               </span>
-              <h2 className="text-2xl sm:text-3xl font-black tracking-tight mt-4 mb-3">
+              <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mt-4 mb-3">
                 {course.practicalProject.title}
               </h2>
               <p className="text-neutral-300 text-sm sm:text-base leading-relaxed mb-6">

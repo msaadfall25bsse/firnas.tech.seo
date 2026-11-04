@@ -47,7 +47,7 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
                 aria-expanded={isOpen}
               >
                 <div className="flex items-center space-x-4">
-                  <span className="w-9 h-9 rounded-xl bg-orange-100 text-[#F07825] font-black text-xs flex items-center justify-center shrink-0">
+                  <span className="w-9 h-9 rounded-xl bg-orange-100 text-[#F07825] font-bold text-xs flex items-center justify-center shrink-0">
                     M{module.moduleNumber}
                   </span>
                   <div>
@@ -137,7 +137,7 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
               <span className="px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
                 Interactive Lesson Experience
               </span>
-              <h3 className="text-2xl sm:text-3xl font-extrabold text-neutral-900 mt-2">
+              <h3 className="text-2xl sm:text-3xl font-bold text-neutral-900 mt-2">
                 {activeLesson.title}
               </h3>
             </div>

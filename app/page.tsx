@@ -104,7 +104,7 @@ export default function HomePage() {
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
                 Our Purpose
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight leading-snug">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-snug">
                 Where Technology Meets Creative Vision
               </h2>
               <p className="text-neutral-700 leading-relaxed text-base sm:text-lg">
@@ -208,7 +208,7 @@ export default function HomePage() {
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <span className="text-xs font-black text-[#F07825] bg-orange-50 px-2.5 py-1 rounded-md">
+                      <span className="text-xs font-bold text-[#F07825] bg-orange-50 px-2.5 py-1 rounded-md">
                         STAGE {proc.step}
                       </span>
                       <IconComp className="w-5 h-5 text-neutral-400" />
@@ -235,7 +235,7 @@ export default function HomePage() {
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
                 Portfolio
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight mt-3">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
                 Featured Projects
               </h2>
               <p className="mt-2 text-neutral-600 text-base max-w-xl">
@@ -267,7 +267,7 @@ export default function HomePage() {
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
                 Knowledge Hub
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight mt-3">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
                 Educational Resources & Guides
               </h2>
               <p className="mt-2 text-neutral-600 text-base max-w-xl">

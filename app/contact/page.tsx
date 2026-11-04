@@ -24,7 +24,7 @@ export default function ContactPage() {
           <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
             Let&apos;s Connect
           </span>
-          <h1 className="text-4xl sm:text-5xl font-black text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
+          <h1 className="text-4xl sm:text-5xl font-bold text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
             Start a Conversation with Our Team
           </h1>
           <p className="text-lg text-neutral-600 leading-relaxed">

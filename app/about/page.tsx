@@ -68,7 +68,7 @@ export default function AboutPage() {
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
                 About Firnas.tech
               </span>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-neutral-900 tracking-tight leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight">
                 Empowering Businesses in Abbottabad & Beyond Through Modern Technology
               </h1>
               <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl">
@@ -174,7 +174,7 @@ export default function AboutPage() {
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
                 Strategic Perspective
               </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight leading-tight">
+              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-tight">
                 Why Businesses Need Modern Digital Solutions Today
               </h2>
               <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
@@ -195,7 +195,7 @@ export default function AboutPage() {
                 <span className="px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#FF8C42] bg-[#F07825]/20 rounded-full">
                   Skillsets & Competencies
                 </span>
-                <h2 className="text-3xl font-extrabold tracking-tight">
+                <h2 className="text-3xl font-bold tracking-tight">
                   Our Engineering & Design Disciplines
                 </h2>
                 <p className="text-neutral-300 text-sm leading-relaxed">

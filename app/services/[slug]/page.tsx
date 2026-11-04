@@ -137,7 +137,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
                 <span>Abbottabad, Pakistan &bull; {service.categoryTitle}</span>
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-neutral-900 tracking-tight leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight">
                 {service.heroHeadline}
               </h1>
 
@@ -187,7 +187,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
               Core Capabilities
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
               Why Our {service.title} Deliver Superior Results
             </h2>
             <p className="text-neutral-600 text-base mt-2">
@@ -223,7 +223,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
               Execution Roadmap
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
               Our 5-Stage Delivery Process
             </h2>
             <p className="text-neutral-600 text-base mt-2">
@@ -238,7 +238,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
                 className="bg-neutral-50 rounded-2xl p-6 border border-neutral-200/80 flex flex-col justify-between"
               >
                 <div>
-                  <span className="text-xs font-black text-[#F07825] bg-white px-2.5 py-1 rounded-md border border-neutral-200 inline-block mb-3">
+                  <span className="text-xs font-bold text-[#F07825] bg-white px-2.5 py-1 rounded-md border border-neutral-200 inline-block mb-3">
                     STEP {step.step}
                   </span>
                   <h3 className="text-base font-bold text-neutral-900 mb-2">
@@ -259,7 +259,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
               Common Questions
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
               Frequently Asked Questions About {service.title}
             </h2>
           </div>
@@ -273,7 +273,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               <span className="text-xs font-bold uppercase tracking-wider text-[#F07825]">
                 Cross-Disciplinary Synergies
               </span>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-900 tracking-tight mt-2">
+              <h2 className="text-2xl sm:text-3xl font-bold text-neutral-900 tracking-tight mt-2">
                 Explore Other Digital Solutions
               </h2>
             </div>
