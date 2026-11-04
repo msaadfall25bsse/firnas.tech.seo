@@ -14,9 +14,17 @@ import { projectsData } from "@/data/projects";
 import { learningArticles } from "@/data/learning";
 
 export const metadata: Metadata = {
-  title: "Firnas.tech | Where Ideas Find Wings — Software Development, Digital Marketing & Graphic Design",
+  title: "Firnas.tech | Software Development, Digital Marketing & SEO Agency in Abbottabad",
   description:
-    "At Firnas.tech, we combine technology, creativity, and digital strategy to help businesses build their online presence and grow in the digital world.",
+    "Firnas.tech is a premier software development, digital marketing, and creative agency based in Abbottabad, Pakistan. We build high-speed web apps, drive organic SEO rankings, and craft memorable brand identities.",
+  keywords: [
+    "software house in Abbottabad",
+    "web development company Abbottabad",
+    "SEO agency in Abbottabad",
+    "digital marketing agency Pakistan",
+    "graphic design company Abbottabad",
+    "Firnas.tech",
+  ],
   alternates: {
     canonical: "/",
   },
@@ -100,10 +108,10 @@ export default function HomePage() {
                 Where Technology Meets Creative Vision
               </h2>
               <p className="text-neutral-700 leading-relaxed text-base sm:text-lg">
-                Firnas.tech is a dedicated digital agency founded on a simple principle: transformative digital products require both precision software engineering and magnetic creative communication.
+                Based in Abbottabad, Khyber Pakhtunkhwa, Firnas.tech is a dedicated digital agency founded on a clear principle: transformative digital products require both precision software engineering and magnetic creative communication.
               </p>
               <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
-                Whether you need a custom web application built with modern frameworks, a high-converting organic SEO strategy to capture competitive search queries, or a memorable visual brand identity, our multidisciplinary team turns complex challenges into scalable digital growth.
+                Whether you need a custom web application built with modern frameworks, a high-converting organic SEO campaign to capture regional and international search queries, or a memorable corporate brand identity, our multidisciplinary team in Abbottabad turns complex business challenges into scalable digital growth.
               </p>
               <div className="pt-2">
                 <Button variant="outline" size="md" href="/about">

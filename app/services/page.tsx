@@ -32,9 +32,16 @@ import { servicesData } from "@/data/services";
 import { servicesFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  title: "Services | Software Development, Digital Marketing & Graphic Design",
+  title: "Services | Software Development, Digital Marketing & Graphic Design in Abbottabad",
   description:
-    "Explore Firnas.tech core digital services: Full-Stack Web Development, Technical SEO, Digital Marketing Strategies, Brand Identity, and Graphic Design.",
+    "Explore digital agency services by Firnas.tech in Abbottabad, Pakistan: Custom Web Development, E-Commerce Stores, Technical SEO, Local Search Optimization, and Brand Identity Design.",
+  keywords: [
+    "web development services Abbottabad",
+    "software house Abbottabad",
+    "SEO services Abbottabad Pakistan",
+    "graphic design agency Abbottabad",
+    "digital marketing Abbottabad",
+  ],
   alternates: {
     canonical: "/services",
   },
@@ -64,7 +71,7 @@ export default function ServicesPage() {
         </div>
 
         {/* Quick Nav Anchors */}
-        <div className="flex flex-wrap items-center justify-center gap-3 pb-16">
+        <div className="flex flex-wrap items-center justify-center gap-3 pb-8">
           <a
             href="#software-development"
             className="px-5 py-2.5 rounded-xl border border-neutral-200 text-sm font-semibold text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] transition-colors bg-white shadow-xs"
@@ -89,6 +96,37 @@ export default function ServicesPage() {
           >
             Frequently Asked Questions
           </a>
+        </div>
+
+        {/* Dedicated Service Landing Pages Highlight */}
+        <div className="p-6 rounded-2xl bg-orange-50/60 border border-orange-200/80 mb-16">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <span className="text-xs font-bold uppercase tracking-wider text-[#F07825]">
+                Specialized Service Hubs
+              </span>
+              <h2 className="text-lg font-bold text-neutral-900 mt-1">
+                Explore Dedicated Local & Industry Service Portals
+              </h2>
+            </div>
+            <div className="flex flex-wrap gap-2 text-xs font-semibold">
+              <Link href="/services/web-development" className="px-3 py-1.5 rounded-lg bg-white border border-neutral-200 text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] transition-colors">
+                Web Development
+              </Link>
+              <Link href="/services/ecommerce-development" className="px-3 py-1.5 rounded-lg bg-white border border-neutral-200 text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] transition-colors">
+                E-Commerce
+              </Link>
+              <Link href="/services/seo-services" className="px-3 py-1.5 rounded-lg bg-white border border-neutral-200 text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] transition-colors">
+                SEO Agency
+              </Link>
+              <Link href="/services/local-seo" className="px-3 py-1.5 rounded-lg bg-white border border-neutral-200 text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] transition-colors">
+                Local SEO (Abbottabad)
+              </Link>
+              <Link href="/services/brand-identity-design" className="px-3 py-1.5 rounded-lg bg-white border border-neutral-200 text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] transition-colors">
+                Logo & Branding
+              </Link>
+            </div>
+          </div>
         </div>
 
         {/* ============================================================== */}

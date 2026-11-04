@@ -7,9 +7,15 @@ import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import Button from "@/components/shared/Button";
 
 export const metadata: Metadata = {
-  title: "About Us | Who We Are & Our Philosophy",
+  title: "About Us | Leading Digital Agency in Abbottabad, Pakistan — Firnas.tech",
   description:
-    "Learn about Firnas.tech, our mission to transform ideas into digital experiences, our core engineering values, and our multidisciplinary approach.",
+    "Learn about Firnas.tech, an Abbottabad-based software development, SEO, and creative digital agency dedicated to helping businesses build modern web applications and scale organic growth.",
+  keywords: [
+    "about Firnas.tech",
+    "software house Abbottabad",
+    "IT company in Abbottabad Pakistan",
+    "web agency Abbottabad",
+  ],
   alternates: {
     canonical: "/about",
   },
@@ -63,10 +69,10 @@ export default function AboutPage() {
                 About Firnas.tech
               </span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-neutral-900 tracking-tight leading-tight">
-                Empowering Businesses Through Modern Technology & Design
+                Empowering Businesses in Abbottabad & Beyond Through Modern Technology
               </h1>
               <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl">
-                Firnas.tech is a technology and creative digital agency. We partner with founders, growing businesses, and organizations to conceive, build, and scale exceptional digital products.
+                Firnas.tech is a technology and creative digital agency headquartered in Abbottabad, Khyber Pakhtunkhwa. We partner with founders, local enterprises, and growing organizations across Pakistan to engineer, design, and scale high-performing digital solutions.
               </p>
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button variant="primary" size="md" href="/services">
