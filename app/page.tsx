@@ -9,28 +9,106 @@ import ProjectCard from "@/components/shared/ProjectCard";
 import LearningCard from "@/components/shared/LearningCard";
 import CTASection from "@/components/shared/CTASection";
 import Button from "@/components/shared/Button";
+import FAQAccordion from "@/components/shared/FAQAccordion";
 import { servicesData } from "@/data/services";
 import { projectsData } from "@/data/projects";
 import { learningArticles } from "@/data/learning";
 
 export const metadata: Metadata = {
-  title: "Firnas.tech | Software Development, Digital Marketing & SEO Agency in Abbottabad",
+  title: "IT Company in Abbottabad | Firnas.tech",
   description:
-    "Firnas.tech is a premier software development, digital marketing, and creative agency based in Abbottabad, Pakistan. We build high-speed web apps, drive organic SEO rankings, and craft memorable brand identities.",
+    "Firnas.tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
   keywords: [
-    "software house in Abbottabad",
-    "web development company Abbottabad",
-    "SEO agency in Abbottabad",
-    "digital marketing agency Pakistan",
-    "graphic design company Abbottabad",
+    "IT Company in Abbottabad",
+    "Software House in Abbottabad",
+    "Software Development Company in Abbottabad",
+    "Digital Marketing Agency in Abbottabad",
+    "Web Development Company in Abbottabad",
+    "Graphic Designing Services in Abbottabad",
+    "Custom Software Development",
+    "Professional Website Development",
+    "Search Engine Optimization",
     "Firnas.tech",
   ],
   alternates: {
-    canonical: "/",
+    canonical: "https://firnas-tech-seo.vercel.app/",
+  },
+  openGraph: {
+    title: "IT Company in Abbottabad | Firnas.tech",
+    description:
+      "Firnas.tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
+    url: "https://firnas-tech-seo.vercel.app/",
+    siteName: "Firnas.tech",
+    locale: "en_PK",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
 export default function HomePage() {
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": ["ProfessionalService", "ITCompany"],
+    name: "Firnas.tech",
+    url: "https://firnas-tech-seo.vercel.app/",
+    logo: "https://firnas-tech-seo.vercel.app/icon.svg",
+    image: "https://firnas-tech-seo.vercel.app/purpose-showcase.jpg",
+    description:
+      "Firnas.tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Abbottabad",
+      addressRegion: "Khyber Pakhtunkhwa",
+      addressCountry: "PK",
+    },
+    areaServed: [
+      { "@type": "City", name: "Abbottabad" },
+      { "@type": "Country", name: "Pakistan" },
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "IT Services",
+      itemListElement: [
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Custom Software Development" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web Development Services" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Digital Marketing Services" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Search Engine Optimization" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Graphic Designing Services" } },
+      ],
+    },
+  };
+
+  const homepageFAQs = [
+    {
+      question: "Which IT services does Firnas.tech offer?",
+      answer:
+        "Firnas.tech is a full-service IT company and software house in Abbottabad offering custom software development, modern web development, search engine optimization (SEO), digital marketing campaigns, and corporate brand identity design.",
+    },
+    {
+      question: "Does Firnas.tech provide website development?",
+      answer:
+        "Yes. As a dedicated web development company in Abbottabad, we engineer responsive business websites, Next.js web applications, and scalable e-commerce platforms optimized for speed and search engine rankings.",
+    },
+    {
+      question: "Does Firnas.tech offer digital marketing services?",
+      answer:
+        "Yes. Our digital marketing agency in Abbottabad provides comprehensive technical SEO, local search optimization, content marketing, Google Ads management, and social media campaigns.",
+    },
+    {
+      question: "Does Firnas.tech provide graphic design?",
+      answer:
+        "Yes. We offer professional graphic designing services in Abbottabad, including corporate logo design, complete brand identity kits, marketing collateral, and UI/UX design.",
+    },
+    {
+      question: "How can I contact Firnas.tech?",
+      answer:
+        "You can easily get in touch with our team through our Contact page, send an email to our project consultants, or request a free quote for your software, web, or marketing project in Abbottabad.",
+    },
+  ];
+
   const workingProcess = [
     {
       step: "01",
@@ -67,32 +145,28 @@ export default function HomePage() {
   const whyChooseUs = [
     {
       title: "Client-Focused Solutions",
-      desc: "Every line of code and every visual asset is crafted specifically to advance your commercial objectives and user engagement.",
+      desc: "Every line of code, design asset, and SEO campaign is tailored to advance your commercial objectives and local market presence.",
     },
     {
       title: "Modern Technologies",
-      desc: "We build on modern standards like Next.js, React, TypeScript, and modern cloud architectures designed for longevity.",
+      desc: "We build on high-performance standards including Next.js, React, TypeScript, and modern cloud infrastructures.",
     },
     {
-      title: "Creative Thinking",
-      desc: "We balance technical rigor with creative brand storytelling to ensure your digital footprint stands out effortlessly.",
+      title: "Creative and Professional Team",
+      desc: "Our multidisciplinary software developers, digital marketers, and visual designers work cohesively on your projects.",
     },
     {
-      title: "Quality-Focused Development",
-      desc: "Zero tolerance for brittle shortcuts. We ensure stringent testing, strict type safety, and optimal Core Web Vitals.",
-    },
-    {
-      title: "Reliable Communication",
-      desc: "Direct, transparent updates through every phase of planning, implementation, and launch.",
-    },
-    {
-      title: "Continuous Improvement",
-      desc: "We actively evaluate real-world analytics to iterate, enhance search performance, and scale your product.",
+      title: "Business-Oriented Approach",
+      desc: "We emphasize measurable digital growth, search visibility, conversion optimization, and long-term technical reliability.",
     },
   ];
 
   return (
     <div className="flex flex-col w-full">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       {/* 1. Hero Section */}
       <Hero />
 
@@ -105,14 +179,32 @@ export default function HomePage() {
                 Our Purpose
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-snug">
-                Where Technology Meets Creative Vision
+                Professional Digital Solutions for Modern Businesses
               </h2>
               <p className="text-neutral-700 leading-relaxed text-base sm:text-lg">
-                Based in Abbottabad, Khyber Pakhtunkhwa, Firnas.tech is a dedicated digital agency founded on a clear principle: transformative digital products require both precision software engineering and magnetic creative communication.
+                Based in Abbottabad, Khyber Pakhtunkhwa, Firnas.tech operates as a dedicated software house and full-service IT company. We believe transformative digital solutions require both precision software engineering and strategic digital marketing.
               </p>
               <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
-                Whether you need a custom web application built with modern frameworks, a high-converting organic SEO campaign to capture regional and international search queries, or a memorable corporate brand identity, our multidisciplinary team in Abbottabad turns complex business challenges into scalable digital growth.
+                As a trusted software development company in Abbottabad, our multidisciplinary engineers, digital marketers, and UI/UX designers collaborate to turn complex business goals into scalable online platforms.
               </p>
+              <div className="grid grid-cols-2 gap-3 pt-2 text-xs font-semibold text-neutral-800">
+                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
+                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Custom Software Development</h3>
+                  <p className="text-neutral-500 font-normal">Robust web apps &amp; systems</p>
+                </div>
+                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
+                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Modern Website Development</h3>
+                  <p className="text-neutral-500 font-normal">Fast, responsive Next.js sites</p>
+                </div>
+                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
+                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Digital Marketing Solutions</h3>
+                  <p className="text-neutral-500 font-normal">SEO &amp; targeted growth ads</p>
+                </div>
+                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
+                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Creative Graphic Designing</h3>
+                  <p className="text-neutral-500 font-normal">Brand identity &amp; UI design</p>
+                </div>
+              </div>
               <div className="pt-2">
                 <Button variant="outline" size="md" href="/about">
                   Learn More About Firnas.tech
@@ -124,7 +216,7 @@ export default function HomePage() {
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 bg-neutral-900 aspect-16/10">
                 <Image
                   src="/purpose-showcase.jpg"
-                  alt="Firnas.tech team planning digital strategies and software architecture"
+                  alt="Firnas.tech - IT Company and Software House in Abbottabad delivering web development and digital marketing"
                   fill
                   sizes="(max-width: 1024px) 100vw, 550px"
                   className="object-cover"
@@ -140,14 +232,62 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="What We Deliver"
-            title="Comprehensive Digital Solutions"
-            description="Our three core disciplines work together to build, scale, and visually elevate your online presence."
+            title="Our Services"
+            description="As a full-service IT company and software house in Abbottabad, we provide specialized software engineering, web development, digital marketing, and graphic design solutions."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {servicesData.map((service) => (
-              <ServiceCard key={service.id} service={service} />
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 01</span>
+                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Software Development Services</h3>
+                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                  Custom software development, scalable web architectures, and reliable enterprise systems engineered for business efficiency.
+                </p>
+              </div>
+              <Link href="/services/custom-web-application-development" className="text-xs font-semibold text-[#F07825] flex items-center gap-1 hover:underline">
+                Explore Software <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 02</span>
+                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Web Development Services</h3>
+                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                  As a leading web development company in Abbottabad, we build responsive Next.js websites and high-converting e-commerce stores.
+                </p>
+              </div>
+              <Link href="/services/web-development" className="text-xs font-semibold text-[#F07825] flex items-center gap-1 hover:underline">
+                Explore Web Dev <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 03</span>
+                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Digital Marketing Services</h3>
+                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                  Our digital marketing agency in Abbottabad provides technical SEO, local search ranking, Google Ads, and social media campaigns.
+                </p>
+              </div>
+              <Link href="/services/digital-marketing" className="text-xs font-semibold text-[#F07825] flex items-center gap-1 hover:underline">
+                Explore Marketing <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 04</span>
+                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Graphic Designing Services</h3>
+                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                  Professional graphic designing services in Abbottabad including brand identity, corporate logos, marketing creatives, and UI/UX design.
+                </p>
+              </div>
+              <Link href="/services/graphic-designing" className="text-xs font-semibold text-[#F07825] flex items-center gap-1 hover:underline">
+                Explore Design <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
           </div>
 
           <div className="mt-12 text-center">
@@ -164,11 +304,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="The Firnas Standard"
-            title="Why Choose Firnas.tech"
-            description="We build digital products designed for stability, usability, and measurable commercial results."
+            title="Why Choose Firnas.tech as Your IT Partner in Abbottabad?"
+            description="We build digital products and marketing campaigns designed for stability, high search rankings, and commercial growth."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {whyChooseUs.map((item, idx) => (
               <div
                 key={idx}
@@ -194,8 +334,8 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Methodology"
-            title="Our Working Process"
-            description="A battle-tested 5-stage lifecycle designed to bring ideas from concept to successful execution."
+            title="Web Development and Software Solutions for Your Business"
+            description="A battle-tested 5-stage lifecycle designed to bring custom web apps and digital products from concept to successful launch."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -227,7 +367,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Featured Projects */}
+      {/* 6. Digital Marketing Services to Grow Your Online Presence */}
       <section className="py-24 bg-neutral-50/70 border-t border-neutral-200/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
@@ -268,7 +408,7 @@ export default function HomePage() {
                 Knowledge Hub
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-                Educational Resources & Guides
+                Creative Graphic Design and Brand Identity Solutions
               </h2>
               <p className="mt-2 text-neutral-600 text-base max-w-xl">
                 Free foundational tutorials covering modern web development, SEO strategies, and visual branding.
@@ -293,9 +433,9 @@ export default function HomePage() {
       <section className="py-20 bg-neutral-50/50 border-t border-neutral-200/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            badge="Client Feedback"
-            title="Client Collaboration Standards"
-            description="We partner closely with clients from discovery to release. Honest feedback and transparent milestones form the core of our relationships."
+            badge="Regional Reach"
+            title="Serving Businesses in Abbottabad and Across Pakistan"
+            description="We partner closely with local enterprises in Abbottabad and organizations across Pakistan, delivering transparent milestones and measurable business results."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -347,8 +487,24 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 9. Final CTA */}
-      <CTASection />
+      {/* 9. Frequently Asked Questions */}
+      <section className="py-24 bg-white border-t border-neutral-200/80">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            badge="Common Queries"
+            title="Frequently Asked Questions About Our IT Services"
+            description="Clear answers regarding our IT services, software engineering, digital marketing, and web development in Abbottabad, Pakistan."
+          />
+          <FAQAccordion items={homepageFAQs} />
+        </div>
+      </section>
+
+      {/* 10. Final CTA */}
+      <CTASection
+        badge="Ready to build?"
+        title="Ready to Grow Your Business with Firnas.tech?"
+        description="Partner with Abbottabad's trusted IT company and software house to engineer high-performing digital solutions."
+      />
     </div>
   );
 }

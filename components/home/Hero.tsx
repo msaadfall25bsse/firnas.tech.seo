@@ -22,12 +22,12 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-[1.14] mb-6">
-              Transforming Ideas Into{" "}
-              <span className="text-[#F07825]">Powerful Digital</span> Experiences
+              Your Trusted{" "}
+              <span className="text-[#F07825]">IT Company in Abbottabad</span> for Digital Growth
             </h1>
 
             <p className="text-lg sm:text-xl text-neutral-600 leading-relaxed mb-8 max-w-2xl font-normal">
-              At Firnas.tech, we combine software engineering, creative design, and technical SEO strategy to help businesses build an authoritative online presence and scale sustainably.
+              Firnas.tech is a premier IT company and software house in Abbottabad. We engineer high-performance web applications, drive organic search rankings, and craft memorable brand identities for businesses across Pakistan.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mb-10 w-full sm:w-auto">
