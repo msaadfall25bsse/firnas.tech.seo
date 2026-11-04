@@ -213,13 +213,14 @@ export default function HomePage() {
             </div>
 
             <div className="lg:col-span-6 relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 bg-neutral-900 aspect-16/10">
+              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 bg-white aspect-16/10 flex items-center justify-center p-3">
                 <Image
                   src="/purpose-showcase.jpg"
                   alt="Firnas.tech - IT Company and Software House in Abbottabad delivering web development and digital marketing"
                   fill
+                  priority
                   sizes="(max-width: 1024px) 100vw, 550px"
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
             </div>
