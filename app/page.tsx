@@ -123,7 +123,7 @@ export default function HomePage() {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 bg-neutral-900 aspect-16/10">
                 <Image
-                  src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1000&q=80"
+                  src="/purpose-showcase.jpg"
                   alt="Firnas.tech team planning digital strategies and software architecture"
                   fill
                   sizes="(max-width: 1024px) 100vw, 550px"
