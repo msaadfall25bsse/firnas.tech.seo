@@ -13,7 +13,7 @@ export const projectsData: ProjectItem[] = [
     name: "Firnas.tech",
     category: "Agency Platform & Software Architecture",
     description: "The official digital platform and interactive learning hub for Firnas.tech, built with Next.js, TypeScript, and modern SEO architecture.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "/project-firnas.jpg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "SEO Architecture"],
   },
   {
@@ -29,7 +29,7 @@ export const projectsData: ProjectItem[] = [
     name: "Ecom with Sami",
     category: "E-Commerce & Digital Branding",
     description: "A tailored digital commerce portal and educational brand showcase designed to guide entrepreneurs in online store scaling.",
-    image: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80",
+    image: "/project-ecom.jpg",
     tags: ["E-Commerce", "Brand Strategy", "Content Delivery", "Responsive Design"],
   },
   {
