@@ -154,7 +154,7 @@ export const dedicatedServices: SubServiceDetail[] = [
     shortDesc: "Data-driven organic search strategies designed to dominate competitive rankings and drive qualified customer leads.",
     heroHeadline: "Leading SEO Agency in Abbottabad & Pakistan",
     heroDescription: "Get your website discovered by high-intent customers actively searching for your services on Google through data-backed technical and on-page SEO.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    image: "/seo-services-hero.jpg",
     primaryKeyword: "best SEO agency in Abbottabad",
     secondaryKeywords: [
       "SEO services Pakistan",
