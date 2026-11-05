@@ -159,7 +159,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
     shortDesc: "Scalable online stores with seamless payment gateways, inventory control, and high-converting checkout flows.",
     heroHeadline: "Scalable E-Commerce Store Development in Pakistan",
     heroDescription: "Transform your retail catalog into a 24/7 revenue engine with custom shopping carts, secure payment gateways, and friction-free user journeys.",
-    image: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=1200&q=80",
+    image: "/ecommerce-hero.jpg",
     primaryKeyword: "ecommerce website development Abbottabad",
     secondaryKeywords: ["online store development Pakistan", "custom ecommerce platform", "payment gateway integration Pakistan", "Shopify & Next.js ecommerce", "ecommerce SEO services"],
     localKeywords: ["ecommerce developers Abbottabad", "online shop builder KPK", "Pakistan online store solutions"],
