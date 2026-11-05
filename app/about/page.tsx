@@ -84,14 +84,14 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="lg:col-span-5 relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-neutral-200 bg-neutral-900 aspect-4/3">
+            <div className="lg:col-span-5 relative flex items-center justify-center">
+              <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-neutral-900">
                 <Image
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80"
-                  alt="Firnas.tech team collaborative workspace"
+                  src="/about-team-hero.jpg"
+                  alt="Firnas.tech team collaborative workspace in Abbottabad"
                   fill
                   priority
-                  sizes="(max-width: 1024px) 100vw, 500px"
+                  sizes="(max-width: 1024px) 100vw, 550px"
                   className="object-cover"
                 />
               </div>
