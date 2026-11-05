@@ -751,7 +751,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
     shortDesc: "Creating impactful visual identities and creative designs that make brands memorable across digital and print media.",
     heroHeadline: "Creative Graphic Design Agency in Abbottabad & Pakistan",
     heroDescription: "Visual communication that captures attention and inspires action. We build unified design languages, brand identities, and commercial graphics that articulate your company's values across every touchpoint.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
+    image: "/graphic-design-hero.jpg",
     primaryKeyword: "graphic designing services in Abbottabad",
     secondaryKeywords: ["creative design agency Pakistan", "graphic design company Abbottabad", "commercial branding design", "corporate graphics Pakistan", "hire graphic designer Abbottabad"],
     localKeywords: ["graphic design Abbottabad", "graphic designer in Abbottabad KPK", "best design agency Abbottabad"],
