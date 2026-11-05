@@ -353,27 +353,45 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
             {relatedCourses.map((rel) => (
               <div
                 key={rel.slug}
-                className="bg-white rounded-2xl border border-neutral-200 p-6 flex flex-col justify-between hover:border-[#F07825]/40 transition-colors"
+                className="group bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-xs hover:shadow-lg hover:border-[#F07825]/40 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">
-                    {rel.category}
-                  </span>
-                  <h3 className="text-base font-bold text-neutral-900 mt-2 mb-2">
-                    {rel.title}
-                  </h3>
-                  <p className="text-neutral-600 text-xs leading-relaxed line-clamp-3 mb-4">
-                    {rel.summary}
-                  </p>
+                  <div className="relative w-full h-44 bg-neutral-100 overflow-hidden">
+                    <Image
+                      src={rel.image}
+                      alt={rel.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 350px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute top-3 left-3">
+                      <span className="px-2.5 py-0.5 rounded-full bg-white/95 backdrop-blur-md text-[11px] font-bold text-neutral-800 shadow-xs uppercase tracking-wider">
+                        {rel.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-base font-bold text-neutral-900 group-hover:text-[#F07825] transition-colors line-clamp-2 mb-2">
+                      <Link href={`/learning/${rel.slug}`}>{rel.title}</Link>
+                    </h3>
+                    <p className="text-neutral-600 text-xs leading-relaxed line-clamp-3 mb-2">
+                      {rel.summary}
+                    </p>
+                  </div>
                 </div>
-                <div className="pt-3 border-t border-neutral-100">
-                  <Link
-                    href={`/learning/${rel.slug}`}
-                    className="inline-flex items-center text-xs font-bold text-[#F07825] hover:text-[#d96517]"
-                  >
-                    <span>Explore Course</span>
-                    <ArrowRight className="w-3.5 h-3.5 ml-1" />
-                  </Link>
+                <div className="p-5 pt-0">
+                  <div className="pt-3 border-t border-neutral-100 flex items-center justify-between">
+                    <span className="text-[11px] font-semibold text-neutral-500">
+                      {rel.difficulty} &bull; {rel.duration}
+                    </span>
+                    <Link
+                      href={`/learning/${rel.slug}`}
+                      className="inline-flex items-center text-xs font-bold text-[#F07825] hover:text-[#d96517]"
+                    >
+                      <span>Explore Course</span>
+                      <ArrowRight className="w-3.5 h-3.5 ml-1" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}
