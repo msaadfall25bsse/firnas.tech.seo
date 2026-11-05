@@ -35,7 +35,7 @@ import { servicesCategoriesData } from "@/data/servicesCatalog";
 export const metadata: Metadata = {
   title: "Services | Web Development, SEO, Digital Marketing & Graphic Design",
   description:
-    "Explore full-service digital solutions by Firnas.tech: Custom Next.js Web Development, Technical & Local SEO, Google & Meta Ads, and Brand Identity Design in Abbottabad, Pakistan.",
+    "Explore full-service digital solutions by Zavera.Tech: Custom Next.js Web Development, Technical & Local SEO, Google & Meta Ads, and Brand Identity Design in Abbottabad, Pakistan.",
   keywords: [
     "web development services Abbottabad",
     "software house Abbottabad",
@@ -64,7 +64,7 @@ export default function ServicesPage() {
             End-to-End Digital Solutions Tailored for Growth
           </h1>
           <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl mx-auto">
-            From bespoke web engineering and high-performance Next.js architectures to multi-channel digital marketing and memorable brand identity design, Firnas.tech delivers quantifiable business growth.
+            From bespoke web engineering and high-performance Next.js architectures to multi-channel digital marketing and memorable brand identity design, Zavera.Tech delivers quantifiable business growth.
           </p>
         </div>
 
@@ -157,7 +157,7 @@ export default function ServicesPage() {
         {/* CTA */}
         <CTASection
           badge="Ready to build?"
-          title="Transform Your Online Presence with Firnas.tech"
+          title="Transform Your Online Presence with Zavera.Tech"
           description="Tell us about your brand's digital requirements and let our team engineer a high-performing solution."
         />
       </div>

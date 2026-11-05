@@ -27,7 +27,7 @@ export async function POST(request: Request) {
     }
 
     const resendApiKey = process.env.RESEND_API_KEY;
-    const contactEmail = process.env.CONTACT_EMAIL || "contact@firnas.tech";
+    const contactEmail = process.env.CONTACT_EMAIL || "contact@zavera.tech";
     const fromEmail = process.env.FROM_EMAIL || "onboarding@resend.dev";
 
     // 3. Email integration check
@@ -38,7 +38,7 @@ export async function POST(request: Request) {
       return NextResponse.json(
         {
           error:
-            "Automated email service is currently in setup mode (RESEND_API_KEY not configured). Please contact us directly via WhatsApp or email contact@firnas.tech.",
+            "Automated email service is currently in setup mode (RESEND_API_KEY not configured). Please contact us directly via WhatsApp or email contact@zavera.tech.",
           fallbackWhatsApp: "https://wa.me/923000000000",
         },
         { status: 503 }
@@ -53,7 +53,7 @@ export async function POST(request: Request) {
       subject: `New Inquiry from ${fullName}: ${subject}`,
       html: `
         <div style="font-family: sans-serif; line-height: 1.6; color: #171717;">
-          <h2 style="color: #F07825;">New Project Inquiry — Firnas.tech</h2>
+          <h2 style="color: #F07825;">New Project Inquiry — Zavera.Tech</h2>
           <hr style="border: 0; border-top: 1px solid #E5E7EB; margin: 16px 0;" />
           <p><strong>Name:</strong> ${fullName}</p>
           <p><strong>Email:</strong> ${email}</p>

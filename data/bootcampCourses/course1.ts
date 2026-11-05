@@ -63,7 +63,7 @@ export const course1: BootcampCourse = {
             "Trace what happens when you type a URL into a browser address bar",
             "Understand IP addresses, DNS lookup, and HTTP/HTTPS client-server handshakes",
           ],
-          explanation: "When a user navigates to https://firnas.tech, the browser asks a DNS server to translate that human-readable domain into a machine IP address (e.g. 76.76.21.21). The browser then initiates an HTTP GET request over TCP/IP. The web server processes the request and streams back HTML, CSS, JavaScript, and image assets. The browser's layout engine parses the HTML to create the DOM (Document Object Model), attaches styles via the CSSOM, and runs the JavaScript engine.",
+          explanation: "When a user navigates to https://zavera.tech, the browser asks a DNS server to translate that human-readable domain into a machine IP address (e.g. 76.76.21.21). The browser then initiates an HTTP GET request over TCP/IP. The web server processes the request and streams back HTML, CSS, JavaScript, and image assets. The browser's layout engine parses the HTML to create the DOM (Document Object Model), attaches styles via the CSSOM, and runs the JavaScript engine.",
           concepts: [
             "Clients (Browsers) vs. Servers (Cloud Hosts)",
             "DNS (Domain Name System) as the internet's phonebook",
@@ -71,7 +71,7 @@ export const course1: BootcampCourse = {
           ],
           codeSnippet: `// Example of an HTTP Request Header
 GET / HTTP/1.1
-Host: firnas.tech
+Host: zavera.tech
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 Accept: text/html,application/xhtml+xml`,
           codeLanguage: "http",
@@ -80,7 +80,7 @@ Accept: text/html,application/xhtml+xml`,
             "Confusing the internet (physical global network of computers) with the web (software layer of hyperlinked documents)",
             "Assuming websites are installed on client computers rather than retrieved dynamically over HTTP",
           ],
-          exercise: "Open Chrome DevTools (press F12), go to the Network tab, reload firnas.tech, and inspect the Status Code, Headers, and Response payload of the document request.",
+          exercise: "Open Chrome DevTools (press F12), go to the Network tab, reload zavera.tech, and inspect the Status Code, Headers, and Response payload of the document request.",
           takeaways: [
             "Web browsers are rendering clients that translate code received from remote servers into visual pixels.",
             "HTTPS ensures all transmitted data between client and server is cryptographically encrypted.",
@@ -104,7 +104,7 @@ Accept: text/html,application/xhtml+xml`,
           ],
           codeSnippet: `// Simplified API communication flow
 async function getCompanyServices() {
-  const response = await fetch("https://firnas.tech/api/services");
+  const response = await fetch("https://zavera.tech/api/services");
   const data = await response.json();
   console.log("Services list:", data);
 }`,
@@ -162,7 +162,7 @@ async function getCompanyServices() {
     </article>
   </main>
   <footer>
-    <p>&copy; 2026 Firnas.tech</p>
+    <p>&copy; 2026 Zavera.Tech</p>
   </footer>
 </body>
 </html>`,
@@ -282,7 +282,7 @@ contactForm.addEventListener("submit", (event) => {
     description: "Combine all skills learned in this course to build a multi-section digital agency landing page with semantic HTML5, responsive CSS flexbox/grid, an interactive mobile navigation menu, and a validated contact form.",
     deliverables: [
       "Semantic HTML5 document with structured landmarks and meta tags",
-      "Mobile-first responsive CSS stylesheet styled with the Firnas.tech orange & white theme",
+      "Mobile-first responsive CSS stylesheet styled with the Zavera.Tech orange & white theme",
       "JavaScript-powered mobile navigation toggle and interactive modal dialog",
       "Live deployment hosted on Vercel or GitHub Pages with verified zero console errors",
     ],

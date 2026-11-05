@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!course) {
     return {
-      title: "Course Not Found | Firnas.tech",
+      title: "Course Not Found | Zavera.Tech",
     };
   }
 
-  const title = `${course.title} — Complete Bootcamp Curriculum | Firnas.tech`;
+  const title = `${course.title} — Complete Bootcamp Curriculum | Zavera.Tech`;
   const description = `${course.summary} Learn ${course.primaryKeyword} through structured modules, practical projects, and code examples.`;
 
   return {
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     keywords: [
       course.primaryKeyword,
       ...course.secondaryKeywords,
-      "Firnas.tech Learning",
+      "Zavera.Tech Learning",
       "bootcamp curriculum",
     ],
     alternates: {
@@ -89,7 +89,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
     description: course.summary,
     provider: {
       "@type": "Organization",
-      name: "Firnas.tech",
+      name: "Zavera.Tech",
       sameAs: siteConfig.url,
     },
     educationalLevel: course.difficulty,
@@ -162,7 +162,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900 aspect-4/3">
                 <Image
                   src={course.image}
-                  alt={`${course.title} - Firnas.tech Bootcamp`}
+                  alt={`${course.title} - Zavera.Tech Bootcamp`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 550px"
@@ -421,7 +421,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
         <CTASection
           badge="Empower your technical capability"
           title="Ready to Apply These Skills to Real Projects?"
-          description="Explore our full curriculum or consult directly with the Firnas.tech engineering team in Abbottabad."
+          description="Explore our full curriculum or consult directly with the Zavera.Tech engineering team in Abbottabad."
           buttonText="Explore All Courses"
           buttonHref="/learning"
         />

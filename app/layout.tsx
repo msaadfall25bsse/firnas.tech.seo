@@ -7,12 +7,12 @@ import { siteConfig } from "@/data/navigation";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Firnas.tech | Where Ideas Find Wings — Software Development, Digital Marketing & Design",
-    template: "%s | Firnas.tech",
+    default: "Zavera.Tech | Where Ideas Find Wings — Software Development, Digital Marketing & Design",
+    template: "%s | Zavera.Tech",
   },
   description: siteConfig.description,
   keywords: [
-    "Firnas.tech",
+    "Zavera.Tech",
     "Software Development",
     "Digital Marketing",
     "Graphic Designing",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "Brand Identity",
     "Technology Agency",
   ],
-  authors: [{ name: "Firnas.tech" }],
-  creator: "Firnas.tech",
-  publisher: "Firnas.tech",
+  authors: [{ name: "Zavera.Tech" }],
+  creator: "Zavera.Tech",
+  publisher: "Zavera.Tech",
   formatDetection: {
     email: true,
     address: true,
@@ -34,23 +34,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: "Firnas.tech — Where Ideas Find Wings",
+    title: "Zavera.Tech — Where Ideas Find Wings",
     description: siteConfig.description,
-    siteName: "Firnas.tech",
+    siteName: "Zavera.Tech",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Firnas.tech — Software Development, SEO and Digital Agency in Abbottabad",
+        alt: "Zavera.Tech — Software Development, SEO and Digital Agency in Abbottabad",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Firnas.tech — Where Ideas Find Wings",
+    title: "Zavera.Tech — Where Ideas Find Wings",
     description: siteConfig.description,
-    creator: "@firnastech",
+    creator: "@zaveratech",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -83,7 +83,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Firnas.tech",
+    name: "Zavera.Tech",
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo.svg`,
     slogan: siteConfig.tagline,

@@ -76,11 +76,11 @@ export const dedicatedServices: SubServiceDetail[] = [
     faqs: [
       {
         question: "Why should my business choose custom web development over generic templates?",
-        answer: "Generic templates are weighed down with unneeded code, security vulnerabilities, and sluggish loading speeds that hurt SEO. Custom development by Firnas.tech guarantees unique brand positioning, top performance scores, and tailored features that match your exact business workflows.",
+        answer: "Generic templates are weighed down with unneeded code, security vulnerabilities, and sluggish loading speeds that hurt SEO. Custom development by Zavera.Tech guarantees unique brand positioning, top performance scores, and tailored features that match your exact business workflows.",
       },
       {
         question: "Do you offer web development services for businesses in Abbottabad and across Pakistan?",
-        answer: "Yes! Firnas.tech is proudly based in Abbottabad, Khyber Pakhtunkhwa. We serve local entrepreneurs, educational institutions, tourism ventures, and commercial enterprises across Pakistan and international clients.",
+        answer: "Yes! Zavera.Tech is proudly based in Abbottabad, Khyber Pakhtunkhwa. We serve local entrepreneurs, educational institutions, tourism ventures, and commercial enterprises across Pakistan and international clients.",
       },
       {
         question: "Will our new website be fully mobile responsive and SEO-friendly?",
@@ -257,7 +257,7 @@ export const dedicatedServices: SubServiceDetail[] = [
         answer: "When consumers in Abbottabad look for clinics, schools, software houses, retail stores, or consulting services, they search locally. Ranking in local search results puts your brand directly in front of ready-to-buy customers in your immediate vicinity.",
       },
       {
-        question: "Does Firnas.tech help with Google Business Profile optimization?",
+        question: "Does Zavera.Tech help with Google Business Profile optimization?",
         answer: "Yes, we structure your website data to support and align seamlessly with your Google Business Profile, ensuring consistent location data and strong local search signals.",
       },
     ],

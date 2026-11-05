@@ -59,9 +59,9 @@ export const course9: BootcampCourse = {
             "Establish a mathematical type scale (1.250 Major Third or 1.333 Perfect Fourth)",
             "Ensure accessibility compliance (WCAG AA 4.5:1 text-to-background contrast)",
           ],
-          explanation: "In the Firnas.tech design system, high-energy orange (#F07825) conveys innovation and forward momentum ('Where Ideas Find Wings'), grounded by clean white and deep charcoal (#171717) for readability and trust. Strict typographic hierarchies guide the human eye effortlessly.",
+          explanation: "In the Zavera.Tech design system, high-energy orange (#F07825) conveys innovation and forward momentum ('Where Ideas Find Wings'), grounded by clean white and deep charcoal (#171717) for readability and trust. Strict typographic hierarchies guide the human eye effortlessly.",
           concepts: ["Color Harmony & 60-30-10 Rule", "Modular Typographic Scales", "WCAG Contrast Ratios"],
-          codeSnippet: `/* Firnas.tech Design System Palette */
+          codeSnippet: `/* Zavera.Tech Design System Palette */
 :root {
   --primary-orange: #F07825;    /* 10% Accents & CTAs */
   --neutral-dark: #171717;      /* 30% Headings & Body */

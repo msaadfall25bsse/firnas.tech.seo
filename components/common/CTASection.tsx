@@ -11,7 +11,7 @@ interface CTASectionProps {
 export default function CTASection({
   badge = "Ready to elevate your business?",
   title = "Have an Idea? Let's Build Something Amazing.",
-  description = "Partner with Firnas.tech to create high-performance digital products, scale your organic search traffic, and design memorable brand identities.",
+  description = "Partner with Zavera.Tech to create high-performance digital products, scale your organic search traffic, and design memorable brand identities.",
   buttonText = "Contact Us",
   buttonHref = "/contact",
 }: CTASectionProps) {

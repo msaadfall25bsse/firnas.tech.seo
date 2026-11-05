@@ -6,7 +6,7 @@ import CTASection from "@/components/common/CTASection";
 import { allBootcampCourses } from "@/data/bootcampCourses/index";
 
 export const metadata: Metadata = {
-  title: "Firnas.tech Learning Hub | Professional Bootcamp Curriculums & Tech Guides",
+  title: "Zavera.Tech Learning Hub | Professional Bootcamp Curriculums & Tech Guides",
   description:
     "Explore professional bootcamp-style learning experiences: Modern Web Development, CSS Flexbox & Grid, JavaScript ES6, React, Next.js App Router, TypeScript, Technical SEO, Digital Marketing, and Brand Identity Design.",
   alternates: {
@@ -25,7 +25,7 @@ export default function LearningPage() {
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-100 text-[#F07825] mb-4">
             <Sparkles className="w-4 h-4" />
             <span className="text-xs font-bold uppercase tracking-wider">
-              Firnas.tech Educational Academy
+              Zavera.Tech Educational Academy
             </span>
           </div>
 
@@ -66,7 +66,7 @@ export default function LearningPage() {
         <CTASection
           badge="Ready to build scalable digital products?"
           title="Looking for Bespoke Engineering or Agency Services?"
-          description="Beyond education, Firnas.tech designs and develops production web platforms, technical SEO campaigns, and creative brand identities for businesses across Abbottabad and worldwide."
+          description="Beyond education, Zavera.Tech designs and develops production web platforms, technical SEO campaigns, and creative brand identities for businesses across Abbottabad and worldwide."
           buttonText="Consult With Our Team"
           buttonHref="/contact"
         />

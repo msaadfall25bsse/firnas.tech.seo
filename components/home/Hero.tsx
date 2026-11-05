@@ -27,7 +27,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-neutral-600 leading-relaxed mb-8 max-w-2xl font-normal">
-              Firnas.tech is a premier IT company and software house in Abbottabad. We engineer high-performance web applications, drive organic search rankings, and craft memorable brand identities for businesses across Pakistan.
+              Zavera.Tech is a premier IT company and software house in Abbottabad. We engineer high-performance web applications, drive organic search rankings, and craft memorable brand identities for businesses across Pakistan.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mb-10 w-full sm:w-auto">

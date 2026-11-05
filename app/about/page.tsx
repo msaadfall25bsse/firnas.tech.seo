@@ -22,9 +22,9 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "About Firnas.tech | Digital Agency in Abbottabad",
+  title: "About Zavera.Tech | Digital Agency in Abbottabad",
   description:
-    "Discover Firnas.tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
+    "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
   keywords: [
     "Digital Agency in Abbottabad",
     "Technology Company in Abbottabad",
@@ -33,31 +33,31 @@ export const metadata: Metadata = {
     "Creative Digital Agency in Pakistan",
     "Software Development and Design Company",
     "Professional Digital Services Company",
-    "About Firnas.tech",
+    "About Zavera.Tech",
   ],
   alternates: {
-    canonical: "https://firnas-tech-seo.vercel.app/about",
+    canonical: "https://zavera-tech-seo.vercel.app/about",
   },
   openGraph: {
-    title: "About Firnas.tech | Digital Agency in Abbottabad",
+    title: "About Zavera.Tech | Digital Agency in Abbottabad",
     description:
-      "Discover Firnas.tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
-    url: "https://firnas-tech-seo.vercel.app/about",
+      "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
+    url: "https://zavera-tech-seo.vercel.app/about",
     type: "website",
     images: [
       {
         url: "/about-team-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Firnas.tech digital agency team collaborative workspace in Abbottabad",
+        alt: "Zavera.Tech digital agency team collaborative workspace in Abbottabad",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Firnas.tech | Digital Agency in Abbottabad",
+    title: "About Zavera.Tech | Digital Agency in Abbottabad",
     description:
-      "Discover Firnas.tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
+      "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
     images: ["/about-team-hero.jpg"],
   },
 };
@@ -144,43 +144,43 @@ export default function AboutPage() {
   const aboutFaqs = [
     {
       id: "about-1",
-      question: "What is Firnas.tech?",
+      question: "What is Zavera.Tech?",
       answer:
-        "Firnas.tech is a digital agency focused on software development, web development, digital marketing, and graphic design.",
+        "Zavera.Tech is a digital agency focused on software development, web development, digital marketing, and graphic design.",
       category: "General" as const,
     },
     {
       id: "about-2",
-      question: "Where is Firnas.tech located?",
-      answer: "Firnas.tech is based in Abbottabad, Pakistan.",
+      question: "Where is Zavera.Tech located?",
+      answer: "Zavera.Tech is based in Abbottabad, Pakistan.",
       category: "General" as const,
     },
     {
       id: "about-3",
-      question: "What services does Firnas.tech offer?",
+      question: "What services does Zavera.Tech offer?",
       answer:
-        "Firnas.tech focuses on software development, web development, digital marketing, and graphic design services.",
+        "Zavera.Tech focuses on software development, web development, digital marketing, and graphic design services.",
       category: "Services" as const,
     },
     {
       id: "about-4",
-      question: "Does Firnas.tech provide website development services?",
+      question: "Does Zavera.Tech provide website development services?",
       answer:
-        "Yes. Firnas.tech focuses on modern website development and web solutions based on project requirements.",
+        "Yes. Zavera.Tech focuses on modern website development and web solutions based on project requirements.",
       category: "Services" as const,
     },
     {
       id: "about-5",
-      question: "Does Firnas.tech offer SEO services?",
+      question: "Does Zavera.Tech offer SEO services?",
       answer:
-        "Digital marketing and SEO are among the services offered by Firnas.tech. SEO work is planned and executed according to project requirements and industry best practices.",
+        "Digital marketing and SEO are among the services offered by Zavera.Tech. SEO work is planned and executed according to project requirements and industry best practices.",
       category: "Services" as const,
     },
     {
       id: "about-6",
-      question: "Can startups and small businesses work with Firnas.tech?",
+      question: "Can startups and small businesses work with Zavera.Tech?",
       answer:
-        "Businesses can contact Firnas.tech to discuss their project requirements and determine suitable digital solutions.",
+        "Businesses can contact Zavera.Tech to discuss their project requirements and determine suitable digital solutions.",
       category: "General" as const,
     },
   ];
@@ -198,7 +198,7 @@ export default function AboutPage() {
             <div className="lg:col-span-7 space-y-6">
               <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full inline-flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5" />
-                <span>About Firnas.tech &bull; Abbottabad, Pakistan</span>
+                <span>About Zavera.Tech &bull; Abbottabad, Pakistan</span>
               </span>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight">
@@ -206,7 +206,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl font-normal">
-                Firnas.tech is a digital agency focused on software development, web development, digital marketing, and graphic design. We bring technology, creativity, and strategic thinking together to help businesses establish and improve their digital presence.
+                Zavera.Tech is a digital agency focused on software development, web development, digital marketing, and graphic design. We bring technology, creativity, and strategic thinking together to help businesses establish and improve their digital presence.
               </p>
 
               <p className="text-base text-neutral-600 leading-relaxed max-w-2xl font-normal">
@@ -227,7 +227,7 @@ export default function AboutPage() {
               <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-neutral-900">
                 <Image
                   src="/about-team-hero.jpg"
-                  alt="Firnas.tech digital agency team collaborative workspace in Abbottabad"
+                  alt="Zavera.Tech digital agency team collaborative workspace in Abbottabad"
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 550px"
@@ -247,10 +247,10 @@ export default function AboutPage() {
               Our Journey
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-tight">
-              Our Story and the Vision Behind Firnas.tech
+              Our Story and the Vision Behind Zavera.Tech
             </h2>
             <p className="text-neutral-600 leading-relaxed text-base sm:text-lg">
-              At Firnas.tech, we believe that technology and creative design play an important role in how businesses connect with people and present themselves online.
+              At Zavera.Tech, we believe that technology and creative design play an important role in how businesses connect with people and present themselves online.
             </p>
             <p className="text-neutral-600 leading-relaxed text-base sm:text-lg">
               Our focus is to bring software development, digital marketing, and creative design together under one digital services platform. By understanding different business requirements, we aim to deliver solutions that are useful, accessible, and aligned with each project&apos;s objectives.
@@ -457,7 +457,7 @@ export default function AboutPage() {
         </section>
 
         {/* ============================================================== */}
-        {/* 7. WHY CHOOSE FIRNAS.TECH (H2 & H3) */}
+        {/* 7. WHY CHOOSE ZAVERA.TECH (H2 & H3) */}
         {/* ============================================================== */}
         <section className="py-16 border-t border-neutral-200/80">
           <div className="bg-neutral-900 text-white rounded-3xl p-8 sm:p-12">
@@ -466,7 +466,7 @@ export default function AboutPage() {
                 Value Proposition
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mt-3">
-                Why Choose Firnas.tech as Your Digital Partner?
+                Why Choose Zavera.Tech as Your Digital Partner?
               </h2>
               <p className="text-neutral-300 text-sm sm:text-base mt-2">
                 We bridge the gap between complex software engineering, search intent optimization, and brand aesthetics.
@@ -510,7 +510,7 @@ export default function AboutPage() {
               Serving Businesses in Abbottabad and Across Pakistan
             </h2>
             <p className="text-neutral-700 leading-relaxed text-sm sm:text-base">
-              Firnas.tech is positioned as a digital services provider in Abbottabad, Pakistan. Our services are intended to support businesses looking for software development, web development, digital marketing, and graphic design solutions.
+              Zavera.Tech is positioned as a digital services provider in Abbottabad, Pakistan. Our services are intended to support businesses looking for software development, web development, digital marketing, and graphic design solutions.
             </p>
             <div className="pt-2">
               <Link
@@ -530,7 +530,7 @@ export default function AboutPage() {
         <section className="py-16 border-t border-neutral-200/80">
           <SectionHeading
             badge="Common Questions"
-            title="Frequently Asked Questions About Firnas.tech"
+            title="Frequently Asked Questions About Zavera.Tech"
             description="Clear answers regarding our agency background, services, location, and collaboration model."
           />
 
@@ -545,7 +545,7 @@ export default function AboutPage() {
         <CTASection
           badge="Start your journey"
           title="Let's Bring Your Vision to Life"
-          description="Have a project or a digital idea in mind? Get in touch with Firnas.tech to discuss your requirements and explore suitable software development, digital marketing, or creative design solutions."
+          description="Have a project or a digital idea in mind? Get in touch with Zavera.Tech to discuss your requirements and explore suitable software development, digital marketing, or creative design solutions."
           buttonText="Contact Us"
           buttonHref="/contact"
         />

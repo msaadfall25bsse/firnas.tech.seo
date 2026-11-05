@@ -122,7 +122,7 @@ export const learningArticles: LearningArticle[] = [
         {
           heading: "1. Destructuring and Spread Operators",
           body: "Destructuring extracts values from arrays or properties from objects into distinct variables concisely, while the spread operator allows seamless array and object copying and composition.",
-          codeSnippet: `const client = { name: "Firnas Tech", service: "Software" };
+          codeSnippet: `const client = { name: "Zavera Tech", service: "Software" };
 const { name, service } = client;
 const updatedClient = { ...client, status: "Active" };`,
         },
@@ -290,8 +290,8 @@ export default function MobileMenuToggle() {
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Firnas.tech",
-  "url": "https://firnas.tech"
+  "name": "Zavera.Tech",
+  "url": "https://zavera.tech"
 }
 </script>`,
         },
@@ -353,7 +353,7 @@ export default function MobileMenuToggle() {
       sections: [
         {
           heading: "1. Color Psychology and Contrast",
-          body: "Colors evoke distinct psychological associations. In the Firnas.tech design system, high-energy orange conveys innovation and creativity, balanced by crisp white and grounding dark tones to maintain readability and trust.",
+          body: "Colors evoke distinct psychological associations. In the Zavera.Tech design system, high-energy orange conveys innovation and creativity, balanced by crisp white and grounding dark tones to maintain readability and trust.",
         },
         {
           heading: "2. Typographic Hierarchy",

@@ -15,9 +15,9 @@ import { projectsData } from "@/data/projects";
 import { learningArticles } from "@/data/learning";
 
 export const metadata: Metadata = {
-  title: "IT Company in Abbottabad | Firnas.tech",
+  title: "IT Company in Abbottabad | Zavera.Tech",
   description:
-    "Firnas.tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
+    "Zavera.Tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
   keywords: [
     "IT Company in Abbottabad",
     "Software House in Abbottabad",
@@ -28,17 +28,17 @@ export const metadata: Metadata = {
     "Custom Software Development",
     "Professional Website Development",
     "Search Engine Optimization",
-    "Firnas.tech",
+    "Zavera.Tech",
   ],
   alternates: {
-    canonical: "https://firnas-tech-seo.vercel.app/",
+    canonical: "https://zavera-tech-seo.vercel.app/",
   },
   openGraph: {
-    title: "IT Company in Abbottabad | Firnas.tech",
+    title: "IT Company in Abbottabad | Zavera.Tech",
     description:
-      "Firnas.tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
-    url: "https://firnas-tech-seo.vercel.app/",
-    siteName: "Firnas.tech",
+      "Zavera.Tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
+    url: "https://zavera-tech-seo.vercel.app/",
+    siteName: "Zavera.Tech",
     locale: "en_PK",
     type: "website",
   },
@@ -52,12 +52,12 @@ export default function HomePage() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "ITCompany"],
-    name: "Firnas.tech",
-    url: "https://firnas-tech-seo.vercel.app/",
-    logo: "https://firnas-tech-seo.vercel.app/icon.svg",
-    image: "https://firnas-tech-seo.vercel.app/purpose-showcase.jpg",
+    name: "Zavera.Tech",
+    url: "https://zavera-tech-seo.vercel.app/",
+    logo: "https://zavera-tech-seo.vercel.app/icon.svg",
+    image: "https://zavera-tech-seo.vercel.app/purpose-showcase.jpg",
     description:
-      "Firnas.tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
+      "Zavera.Tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Abbottabad",
@@ -83,27 +83,27 @@ export default function HomePage() {
 
   const homepageFAQs = [
     {
-      question: "Which IT services does Firnas.tech offer?",
+      question: "Which IT services does Zavera.Tech offer?",
       answer:
-        "Firnas.tech is a full-service IT company and software house in Abbottabad offering custom software development, modern web development, search engine optimization (SEO), digital marketing campaigns, and corporate brand identity design.",
+        "Zavera.Tech is a full-service IT company and software house in Abbottabad offering custom software development, modern web development, search engine optimization (SEO), digital marketing campaigns, and corporate brand identity design.",
     },
     {
-      question: "Does Firnas.tech provide website development?",
+      question: "Does Zavera.Tech provide website development?",
       answer:
         "Yes. As a dedicated web development company in Abbottabad, we engineer responsive business websites, Next.js web applications, and scalable e-commerce platforms optimized for speed and search engine rankings.",
     },
     {
-      question: "Does Firnas.tech offer digital marketing services?",
+      question: "Does Zavera.Tech offer digital marketing services?",
       answer:
         "Yes. Our digital marketing agency in Abbottabad provides comprehensive technical SEO, local search optimization, content marketing, Google Ads management, and social media campaigns.",
     },
     {
-      question: "Does Firnas.tech provide graphic design?",
+      question: "Does Zavera.Tech provide graphic design?",
       answer:
         "Yes. We offer professional graphic designing services in Abbottabad, including corporate logo design, complete brand identity kits, marketing collateral, and UI/UX design.",
     },
     {
-      question: "How can I contact Firnas.tech?",
+      question: "How can I contact Zavera.Tech?",
       answer:
         "You can easily get in touch with our team through our Contact page, send an email to our project consultants, or request a free quote for your software, web, or marketing project in Abbottabad.",
     },
@@ -182,7 +182,7 @@ export default function HomePage() {
                 Professional Digital Solutions for Modern Businesses
               </h2>
               <p className="text-neutral-700 leading-relaxed text-base sm:text-lg">
-                Based in Abbottabad, Khyber Pakhtunkhwa, Firnas.tech operates as a dedicated software house and full-service IT company. We believe transformative digital solutions require both precision software engineering and strategic digital marketing.
+                Based in Abbottabad, Khyber Pakhtunkhwa, Zavera.Tech operates as a dedicated software house and full-service IT company. We believe transformative digital solutions require both precision software engineering and strategic digital marketing.
               </p>
               <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
                 As a trusted software development company in Abbottabad, our multidisciplinary engineers, digital marketers, and UI/UX designers collaborate to turn complex business goals into scalable online platforms.
@@ -207,7 +207,7 @@ export default function HomePage() {
               </div>
               <div className="pt-2">
                 <Button variant="outline" size="md" href="/about">
-                  Learn More About Firnas.tech
+                  Learn More About Zavera.Tech
                 </Button>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function HomePage() {
               <div className="relative w-full h-[360px] sm:h-[420px] md:h-[460px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-white p-4 flex items-center justify-center">
                 <Image
                   src="/purpose-showcase.jpg"
-                  alt="Firnas.tech - IT Company and Software House in Abbottabad delivering web development and digital marketing"
+                  alt="Zavera.Tech - IT Company and Software House in Abbottabad delivering web development and digital marketing"
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 550px"
@@ -300,12 +300,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. Why Choose Firnas.tech Section */}
+      {/* 4. Why Choose Zavera.Tech Section */}
       <section className="py-24 bg-neutral-50/70 border-y border-neutral-200/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            badge="The Firnas Standard"
-            title="Why Choose Firnas.tech as Your IT Partner in Abbottabad?"
+            badge="The Zavera Standard"
+            title="Why Choose Zavera.Tech as Your IT Partner in Abbottabad?"
             description="We build digital products and marketing campaigns designed for stability, high search rankings, and commercial growth."
           />
 
@@ -442,7 +442,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="bg-white p-7 rounded-2xl border border-neutral-200 shadow-xs flex flex-col justify-between">
               <p className="text-neutral-700 text-sm leading-relaxed italic mb-6">
-                &ldquo;Firnas.tech approaches projects with a structured software engineering discipline. Their understanding of Next.js and technical SEO delivered a measurable boost in our site performance.&rdquo;
+                &ldquo;Zavera.Tech approaches projects with a structured software engineering discipline. Their understanding of Next.js and technical SEO delivered a measurable boost in our site performance.&rdquo;
               </p>
               <div className="flex items-center gap-3 pt-4 border-t border-neutral-100">
                 <div className="w-10 h-10 rounded-full bg-orange-100 text-[#F07825] flex items-center justify-center font-bold text-sm">
@@ -472,7 +472,7 @@ export default function HomePage() {
 
             <div className="bg-white p-7 rounded-2xl border border-neutral-200 shadow-xs flex flex-col justify-between">
               <p className="text-neutral-700 text-sm leading-relaxed italic mb-6">
-                &ldquo;From responsive layouts to rapid query loading, Firnas.tech proved to be reliable, transparent, and technically rigorous throughout development.&rdquo;
+                &ldquo;From responsive layouts to rapid query loading, Zavera.Tech proved to be reliable, transparent, and technically rigorous throughout development.&rdquo;
               </p>
               <div className="flex items-center gap-3 pt-4 border-t border-neutral-100">
                 <div className="w-10 h-10 rounded-full bg-orange-100 text-[#F07825] flex items-center justify-center font-bold text-sm">
@@ -503,7 +503,7 @@ export default function HomePage() {
       {/* 10. Final CTA */}
       <CTASection
         badge="Ready to build?"
-        title="Ready to Grow Your Business with Firnas.tech?"
+        title="Ready to Grow Your Business with Zavera.Tech?"
         description="Partner with Abbottabad's trusted IT company and software house to engineer high-performing digital solutions."
       />
     </div>

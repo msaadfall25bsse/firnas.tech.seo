@@ -1,15 +1,15 @@
-# Firnas.tech — System Architecture & Codebase Organization
+# Zavera.Tech — System Architecture & Codebase Organization
 
 ## 1. Overview & Architectural Philosophy
 
-Firnas.tech is built on Next.js 16 (App Router) with React 19, TypeScript, and Tailwind CSS. The codebase adheres to the structured, domain-isolated architecture inspired by the Junglan Community Development Foundation reference project, ensuring strict separation of concerns, high maintainability, and clean type contracts.
+Zavera.Tech is built on Next.js 16 (App Router) with React 19, TypeScript, and Tailwind CSS. The codebase adheres to the structured, domain-isolated architecture inspired by the Junglan Community Development Foundation reference project, ensuring strict separation of concerns, high maintainability, and clean type contracts.
 
 ---
 
 ## 2. Directory Hierarchy
 
 ```text
-firnas.tech/
+zavera.tech/
 ├── app/                  # Next.js App Router (File-based routing & server layouts)
 │   ├── (site)/           # Core application routes
 │   │   ├── about/        # Company narrative & team profile

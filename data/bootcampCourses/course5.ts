@@ -104,7 +104,7 @@ export default async function CoursesPage() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const course = await getCourseBySlug(params.slug);
   return {
-    title: \`\${course.title} | Firnas.tech Learning\`,
+    title: \`\${course.title} | Zavera.Tech Learning\`,
     description: course.summary,
     alternates: {
       canonical: \`/learning/\${course.slug}\`,

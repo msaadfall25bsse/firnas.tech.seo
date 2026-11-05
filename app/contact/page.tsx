@@ -7,7 +7,7 @@ import { siteConfig } from "@/data/navigation";
 export const metadata: Metadata = {
   title: "Contact Us | Start a Project or Inquire",
   description:
-    "Get in touch with Firnas.tech for custom software development, digital marketing, and graphic design projects. Reach out via contact form or direct WhatsApp.",
+    "Get in touch with Zavera.Tech for custom software development, digital marketing, and graphic design projects. Reach out via contact form or direct WhatsApp.",
   alternates: {
     canonical: "/contact",
   },
@@ -120,7 +120,7 @@ export default function ContactPage() {
                   Privacy & NDA Protection
                 </h4>
                 <p className="text-xs text-neutral-600 leading-relaxed mt-1">
-                  We respect intellectual property. All project discussions and architectural details shared with Firnas.tech remain strictly confidential.
+                  We respect intellectual property. All project discussions and architectural details shared with Zavera.Tech remain strictly confidential.
                 </p>
               </div>
             </div>

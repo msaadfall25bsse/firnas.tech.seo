@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Logo variant="light" size={40} />
             <p className="text-neutral-400 text-sm leading-relaxed max-w-sm mt-4">
-              At Firnas.tech, we combine software development, creative design, and technical digital marketing to build high-impact digital solutions that elevate businesses.
+              At Zavera.Tech, we combine software development, creative design, and technical digital marketing to build high-impact digital solutions that elevate businesses.
             </p>
             <div className="pt-2 flex items-center space-x-3 text-neutral-400">
               <a
@@ -136,7 +136,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 mt-8 border-t border-neutral-900 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
           <p>
-            &copy; {new Date().getFullYear()} Firnas.tech. All rights reserved. Where Ideas Find Wings.
+            &copy; {new Date().getFullYear()} Zavera.Tech. All rights reserved. Where Ideas Find Wings.
           </p>
           <div className="flex items-center space-x-6">
             <Link href="/about" className="hover:text-neutral-400 transition-colors">

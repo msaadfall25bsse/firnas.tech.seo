@@ -9,11 +9,11 @@ export interface ProjectItem {
 
 export const projectsData: ProjectItem[] = [
   {
-    id: "firnas-tech",
-    name: "Firnas.tech",
+    id: "zavera-tech",
+    name: "Zavera.Tech",
     category: "Agency Platform & Software Architecture",
-    description: "The official digital platform and interactive learning hub for Firnas.tech, built with Next.js, TypeScript, and modern SEO architecture.",
-    image: "/project-firnas.jpg",
+    description: "The official digital platform and interactive learning hub for Zavera.Tech, built with Next.js, TypeScript, and modern SEO architecture.",
+    image: "/project-zavera.jpg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "SEO Architecture"],
   },
   {

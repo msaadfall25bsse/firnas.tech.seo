@@ -12,12 +12,12 @@ export const navigationLinks: NavItem[] = [
 ];
 
 export const siteConfig = {
-  name: "Firnas.tech",
+  name: "Zavera.Tech",
   tagline: "Where Ideas Find Wings",
   description:
-    "At Firnas.tech, we combine technology, creativity, and digital strategy to help businesses build their online presence and grow in the digital world.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://firnas.tech",
-  email: "contact@firnas.tech",
+    "At Zavera.Tech, we combine technology, creativity, and digital strategy to help businesses build their online presence and grow in the digital world.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://zavera.tech",
+  email: "contact@zavera.tech",
   phone: "+92 300 0000000",
   whatsapp: "https://wa.me/923000000000",
   location: "Abbottabad, Khyber Pakhtunkhwa, Pakistan",

@@ -74,18 +74,18 @@ export default function OrbitShowcase() {
         </div>
       </div>
 
-      {/* Inner Central Core: Firnas.tech Symbol & Brand Glow */}
+      {/* Inner Central Core: Zavera.Tech Symbol & Brand Glow */}
       <div className="relative z-10 w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-gradient-to-br from-[#F07825] to-[#FF8C42] p-1 shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
         <div className="w-full h-full bg-white rounded-[22px] flex flex-col items-center justify-center p-3 text-center shadow-inner">
           <Image
             src="/logo.svg"
-            alt="Firnas.tech Core"
+            alt="Zavera.Tech Core"
             width={40}
             height={40}
             className="animate-pulse"
           />
           <span className="text-[10px] font-black text-neutral-900 tracking-tight mt-1">
-            Firnas<span className="text-[#F07825]">.tech</span>
+            Zavera<span className="text-[#F07825]">.tech</span>
           </span>
           <span className="text-[7px] text-neutral-400 font-bold uppercase tracking-wider">
             HQ Abbottabad

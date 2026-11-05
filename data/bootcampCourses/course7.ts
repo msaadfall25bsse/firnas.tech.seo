@@ -65,7 +65,7 @@ export const course7: BootcampCourse = {
           codeSnippet: `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://firnas-tech-seo.vercel.app/</loc>
+    <loc>https://zavera-tech-seo.vercel.app/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -101,8 +101,8 @@ export const course7: BootcampCourse = {
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Firnas.tech",
-  "url": "https://firnas.tech",
+  "name": "Zavera.Tech",
+  "url": "https://zavera.tech",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Abbottabad",

@@ -130,7 +130,7 @@ export function Counter() {
     deliverables: [
       "Modular component hierarchy with separate presentation and container components",
       "Custom useLocalStorage hook for saving completed lessons",
-      "Responsive layout styled with Tailwind CSS conforming to Firnas.tech design standards",
+      "Responsive layout styled with Tailwind CSS conforming to Zavera.Tech design standards",
     ],
   },
   relatedCourseSlugs: [

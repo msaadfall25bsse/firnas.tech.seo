@@ -28,12 +28,12 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 
   if (!service) {
     return {
-      title: "Service Not Found | Firnas.tech",
+      title: "Service Not Found | Zavera.Tech",
     };
   }
 
-  const title = `${service.title} | Firnas.tech — Abbottabad, Pakistan`;
-  const description = `${service.shortDesc} Professional ${service.primaryKeyword} delivered by Firnas.tech in Abbottabad, Pakistan and worldwide.`;
+  const title = `${service.title} | Zavera.Tech — Abbottabad, Pakistan`;
+  const description = `${service.shortDesc} Professional ${service.primaryKeyword} delivered by Zavera.Tech in Abbottabad, Pakistan and worldwide.`;
 
   return {
     title,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
       service.primaryKeyword,
       ...service.secondaryKeywords,
       ...service.localKeywords,
-      "Firnas.tech Abbottabad",
+      "Zavera.Tech Abbottabad",
     ],
     alternates: {
       canonical: `/services/${service.slug}`,
@@ -85,7 +85,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
     description: service.shortDesc,
     provider: {
       "@type": "LocalBusiness",
-      name: "Firnas.tech",
+      name: "Zavera.Tech",
       image: `${siteConfig.url}/logo.svg`,
       telephone: siteConfig.phone,
       email: siteConfig.email,
@@ -173,7 +173,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[440px] rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900">
                 <Image
                   src={service.image}
-                  alt={`${service.title} - Firnas.tech Abbottabad Pakistan`}
+                  alt={`${service.title} - Zavera.Tech Abbottabad Pakistan`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 550px"
@@ -328,7 +328,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
         <CTASection
           badge="Get in Touch"
           title={`Ready to Elevate Your Business with ${service.title}?`}
-          description="Contact Firnas.tech today for a tailored proposal, technical roadmap, and transparent milestone estimate."
+          description="Contact Zavera.Tech today for a tailored proposal, technical roadmap, and transparent milestone estimate."
           buttonText="Request a Free Quote"
           buttonHref="/contact"
         />

@@ -30,8 +30,8 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Deployment & Support", desc: "Live production launch with continuous monitoring, maintenance, and technical updates." },
     ],
     faqs: [
-      { question: "Why should my business choose custom web development over generic templates?", answer: "Generic templates are weighed down with unneeded code, security vulnerabilities, and sluggish loading speeds that hurt SEO. Custom development by Firnas.tech guarantees unique brand positioning, top performance scores, and tailored features that match your exact business workflows." },
-      { question: "Do you offer web development services for businesses in Abbottabad and across Pakistan?", answer: "Yes! Firnas.tech is proudly based in Abbottabad, Khyber Pakhtunkhwa. We serve local entrepreneurs, educational institutions, tourism ventures, and commercial enterprises across Pakistan and international clients." },
+      { question: "Why should my business choose custom web development over generic templates?", answer: "Generic templates are weighed down with unneeded code, security vulnerabilities, and sluggish loading speeds that hurt SEO. Custom development by Zavera.Tech guarantees unique brand positioning, top performance scores, and tailored features that match your exact business workflows." },
+      { question: "Do you offer web development services for businesses in Abbottabad and across Pakistan?", answer: "Yes! Zavera.Tech is proudly based in Abbottabad, Khyber Pakhtunkhwa. We serve local entrepreneurs, educational institutions, tourism ventures, and commercial enterprises across Pakistan and international clients." },
     ],
   },
   {
@@ -471,7 +471,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Ongoing Monitoring", desc: "Ensuring links remain live, indexed, and active." },
     ],
     faqs: [
-      { question: "Can bad backlinks harm my website's rankings?", answer: "Yes, spammy link schemes violate Google Webmaster Guidelines and can trigger algorithmic or manual ranking penalties. That is why Firnas.tech exclusively practices manual, white-hat outreach." },
+      { question: "Can bad backlinks harm my website's rankings?", answer: "Yes, spammy link schemes violate Google Webmaster Guidelines and can trigger algorithmic or manual ranking penalties. That is why Zavera.Tech exclusively practices manual, white-hat outreach." },
     ],
   },
   {
@@ -533,7 +533,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Scaling & Optimization", desc: "Allocating budget toward winning ad sets and continuously reducing cost-per-lead." },
     ],
     faqs: [
-      { question: "How does Firnas.tech measure digital marketing success?", answer: "We focus on commercial metrics that genuinely impact your bottom line—such as qualified leads, inquiry form submissions, phone calls, and cost per acquisition—rather than vanity metrics." },
+      { question: "How does Zavera.Tech measure digital marketing success?", answer: "We focus on commercial metrics that genuinely impact your bottom line—such as qualified leads, inquiry form submissions, phone calls, and cost per acquisition—rather than vanity metrics." },
     ],
   },
   {
