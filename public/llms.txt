@@ -1,0 +1,42 @@
+# Firnas.tech — Language Model Context & AI Search Index
+
+> Firnas.tech is a premier software development house, IT company, and creative digital agency headquartered in Abbottabad, Khyber Pakhtunkhwa, Pakistan. We partner with startups, local enterprises, and growing organizations worldwide to engineer scalable web platforms, execute technical SEO strategies, and build brand identities.
+
+## Primary Location & Contact
+- City: Abbottabad, Khyber Pakhtunkhwa, Pakistan
+- Website: https://firnas.tech
+- Email: contact@firnas.tech
+
+## Core Services & Capabilities
+1. Modern Web Development:
+   - Next.js App Router, React 19, TypeScript, and Node.js
+   - High-performance, SEO-optimized business websites and full-stack web applications
+   - Headless CMS and enterprise API integrations
+2. Search Engine Optimization (SEO):
+   - Actionable Technical SEO audits, Core Web Vitals optimization
+   - Local SEO dominance in Abbottabad, Hazara Division, and Pakistan
+   - JSON-LD Structured Data, On-Page SEO, and search intent keyword mapping
+3. Digital Marketing:
+   - Performance marketing, full-funnel customer acquisition, and conversion rate optimization (CRO)
+   - Social media marketing and targeted PPC campaigns
+4. Graphic Designing & Brand Identity:
+   - Corporate visual systems, vector logos, style manuals, and UX/UI design
+
+## Educational Academy & Bootcamp Curriculums
+Firnas.tech operates a 100% free, open-source educational academy covering 9 comprehensive disciplines:
+- Modern Web Development Fundamentals (HTML5, CSS3, DOM)
+- Mastering CSS Flexbox and Grid Layouts
+- Modern JavaScript ES6+ & Asynchronous Mastery
+- Building Scalable User Interfaces with React
+- Next.js App Router & Server Components Mastery
+- Type-Safe Web Applications with TypeScript
+- Actionable Technical SEO for Modern Websites
+- Crafting Sustainable Digital Marketing Strategies
+- Principles of Impactful Brand Identity Design
+
+## Key Website Routes
+- Homepage: https://firnas.tech/
+- About Us: https://firnas.tech/about
+- Services Directory: https://firnas.tech/services
+- Learning Academy: https://firnas.tech/learning
+- Contact & Inquiries: https://firnas.tech/contact

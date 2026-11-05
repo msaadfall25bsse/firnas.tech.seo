@@ -37,12 +37,21 @@ export const metadata: Metadata = {
     title: "Firnas.tech — Where Ideas Find Wings",
     description: siteConfig.description,
     siteName: "Firnas.tech",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Firnas.tech — Software Development, SEO and Digital Agency in Abbottabad",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Firnas.tech — Where Ideas Find Wings",
     description: siteConfig.description,
     creator: "@firnastech",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
