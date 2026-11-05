@@ -169,8 +169,8 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               </div>
             </div>
 
-            <div className="lg:col-span-5 relative">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900 aspect-4/3">
+            <div className="lg:col-span-5 relative flex items-center justify-center">
+              <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[440px] rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900">
                 <Image
                   src={service.image}
                   alt={`${service.title} - Firnas.tech Abbottabad Pakistan`}

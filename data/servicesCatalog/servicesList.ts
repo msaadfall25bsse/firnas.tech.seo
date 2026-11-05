@@ -12,7 +12,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
     shortDesc: "High-performance, secure, and modern custom website development built with Next.js, React, and TypeScript.",
     heroHeadline: "Premier Web Development Company in Abbottabad, Pakistan",
     heroDescription: "We engineer lightning-fast, conversion-focused websites and web applications tailored to expand your business footprint locally and globally.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    image: "/web-dev-hero.jpg",
     primaryKeyword: "web development company in Abbottabad",
     secondaryKeywords: ["website development services Pakistan", "Next.js web development", "custom website development", "responsive web design Abbottabad", "frontend and backend developers"],
     localKeywords: ["web developers in Abbottabad", "software house in Abbottabad", "website design Abbottabad KPK"],
