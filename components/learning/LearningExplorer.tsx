@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { Search } from "lucide-react";
 import { LearningArticle, learningCategories } from "@/data/learning";
-import LearningCard from "@/components/shared/LearningCard";
+import LearningCard from "@/components/common/LearningCard";
 import { cn } from "@/lib/utils";
 
 interface LearningExplorerProps {

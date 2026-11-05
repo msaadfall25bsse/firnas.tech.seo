@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Mail, Phone, MapPin, MessageSquare, Clock, ShieldCheck, ArrowRight } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
-import Breadcrumbs from "@/components/shared/Breadcrumbs";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import { siteConfig } from "@/data/navigation";
 
 export const metadata: Metadata = {

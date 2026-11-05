@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 import { contactFormSchema, ContactFormData } from "@/lib/validations";
-import Button from "../shared/Button";
+import Button from "@/components/ui/Button";
 import { siteConfig } from "@/data/navigation";
 
 export default function ContactForm() {

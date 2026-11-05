@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircle2, Target, Eye, ShieldCheck, HeartHandshake, Lightbulb, Compass, ArrowRight } from "lucide-react";
-import SectionHeading from "@/components/shared/SectionHeading";
-import CTASection from "@/components/shared/CTASection";
-import Breadcrumbs from "@/components/shared/Breadcrumbs";
-import Button from "@/components/shared/Button";
+import SectionHeading from "@/components/common/SectionHeading";
+import CTASection from "@/components/common/CTASection";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
+import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "About Us | Leading Digital Agency in Abbottabad, Pakistan — Firnas.tech",

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Sparkles, CheckCircle2, ShieldCheck, MapPin } from "lucide-react";
-import Button from "../shared/Button";
+import Button from "@/components/ui/Button";
 import OrbitShowcase from "./OrbitShowcase";
 
 export default function Hero() {

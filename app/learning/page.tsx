@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { BookOpen, Sparkles, Award, ShieldCheck, CheckCircle2 } from "lucide-react";
 import BootcampExplorer from "@/components/learning/BootcampExplorer";
-import Breadcrumbs from "@/components/shared/Breadcrumbs";
-import CTASection from "@/components/shared/CTASection";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
+import CTASection from "@/components/common/CTASection";
 import { allBootcampCourses } from "@/data/bootcampCourses/index";
 
 export const metadata: Metadata = {

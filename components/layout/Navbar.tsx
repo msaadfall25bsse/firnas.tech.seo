@@ -15,8 +15,8 @@ import {
   Sparkles,
   ExternalLink
 } from "lucide-react";
-import Logo from "../shared/Logo";
-import Button from "../shared/Button";
+import Logo from "@/components/common/Logo";
+import Button from "@/components/ui/Button";
 import { servicesCategoriesData } from "@/data/servicesCatalog";
 import { cn } from "@/lib/utils";
 

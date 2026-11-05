@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "../shared/Logo";
+import Logo from "@/components/common/Logo";
 import { navigationLinks, siteConfig } from "@/data/navigation";
 import { servicesData } from "@/data/services";
 import { Mail, Phone, MapPin, ArrowUpRight, Globe } from "lucide-react";
