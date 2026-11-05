@@ -8,7 +8,7 @@ export const course6: BootcampCourse = {
   difficulty: "Intermediate",
   duration: "4 Weeks (Strict Engineering Labs)",
   summary: "Transform JavaScript into a strictly-typed, scalable language. Learn TypeScript interfaces, type aliases, union & intersection types, generics, utility types, and runtime validation with Zod.",
-  image: "https://images.unsplash.com/photo-1516116211227-bbc13c6b8112?auto=format&fit=crop&w=1200&q=80",
+  image: "/learning-typescript.jpg",
   publishedAt: "2026-03-12",
   primaryKeyword: "TypeScript Tutorial",
   secondaryKeywords: [

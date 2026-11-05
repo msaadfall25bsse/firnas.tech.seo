@@ -235,7 +235,7 @@ export default function MobileMenuToggle() {
     difficulty: "Intermediate",
     duration: "13 min read",
     summary: "Eliminate runtime errors and streamline team collaboration by adopting TypeScript interfaces, generics, and strict type checking in your projects.",
-    image: "https://images.unsplash.com/photo-1516116211227-bbc13c6b8112?auto=format&fit=crop&w=800&q=80",
+    image: "/learning-typescript.jpg",
     publishedAt: "2026-03-05",
     content: {
       introduction: "TypeScript enhances JavaScript by introducing compile-time static type analysis. This safety net catches errors before code ever hits production, providing rich autocompletion and clear documentation across large codebases.",
