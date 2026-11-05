@@ -3,10 +3,10 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, ArrowRight, MapPin, Sparkles, ChevronRight, HelpCircle } from "lucide-react";
-import Breadcrumbs from "@/components/shared/Breadcrumbs";
-import Button from "@/components/shared/Button";
-import CTASection from "@/components/shared/CTASection";
-import FAQAccordion from "@/components/shared/FAQAccordion";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
+import Button from "@/components/ui/Button";
+import CTASection from "@/components/common/CTASection";
+import FAQAccordion from "@/components/common/FAQAccordion";
 import { allSubServices, getServiceBySlug } from "@/data/servicesCatalog/index";
 import { siteConfig } from "@/data/navigation";
 

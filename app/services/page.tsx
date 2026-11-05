@@ -23,11 +23,11 @@ import {
   PenTool,
   Award,
 } from "lucide-react";
-import SectionHeading from "@/components/shared/SectionHeading";
-import CTASection from "@/components/shared/CTASection";
-import Breadcrumbs from "@/components/shared/Breadcrumbs";
-import FAQAccordion from "@/components/shared/FAQAccordion";
-import Button from "@/components/shared/Button";
+import SectionHeading from "@/components/common/SectionHeading";
+import CTASection from "@/components/common/CTASection";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
+import FAQAccordion from "@/components/common/FAQAccordion";
+import Button from "@/components/ui/Button";
 import { servicesData } from "@/data/services";
 import { servicesFAQs } from "@/data/faqs";
 import { servicesCategoriesData } from "@/data/servicesCatalog";
