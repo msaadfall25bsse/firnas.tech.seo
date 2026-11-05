@@ -515,7 +515,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
     shortDesc: "Data-driven marketing and technical search engine optimization that puts your brand directly in front of buyers actively searching for your solutions.",
     heroHeadline: "Comprehensive Digital Marketing Agency in Pakistan",
     heroDescription: "Accelerate revenue growth through integrated marketing funnels combining social media marketing, PPC advertising, content strategy, and SEO.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    image: "/digital-marketing-hero.jpg",
     primaryKeyword: "digital marketing agency in Pakistan",
     secondaryKeywords: ["digital marketing services Abbottabad", "online marketing agency", "social media marketing Pakistan", "PPC advertising agency", "content marketing strategy"],
     localKeywords: ["digital marketing Abbottabad", "marketing agency KPK", "best marketing company Abbottabad"],
